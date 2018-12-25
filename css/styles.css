@@ -1,6 +1,6 @@
 body {
     background-image:url('../img/background.jpg');
-	font-family:'PT Sans';
+	font-family:'Comic Sans MS';
 }
 
 a {
@@ -10,10 +10,13 @@ a {
 }
 
 li a {
-	font-family: "PT sans";
-	font-weight: 100;
+	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 90%;
+}
+
+.no-text-transform{
+	text-transform: none;
 }
 
 .bg-white {
@@ -32,9 +35,9 @@ li a {
 }
 
 #header .header-bg {
-	background:url('../img/shurizma_2400x739.png') center center no-repeat;
+	background:url('../img/shurizma_4096x1024.png') center center no-repeat;
 	height: 300px;
-    background-size: cover;
+    background-size: contain;
 }
 
 .logo-wrapper {
@@ -149,6 +152,9 @@ li:hover > .a-index::before {
 		max-width:95%;
 	}
 }
+h1 {
+	font-size: 1.9em;
+}
 
 p {
 	margin: 0;
@@ -232,7 +238,15 @@ p {
             width:auto;
     }
     .vjs-default-skin{
-    max-width: 100%;
-    max-height: 100%;
+    	max-width: 100%;
+    	max-height: 100%;
     }
+}
+
+.activity-feed{
+	border-bottom: thick solid #2f4f4f;
+}
+
+p .activity-feed{
+	border-bottom: none;
 }
