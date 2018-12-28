@@ -59,18 +59,46 @@
 						</ul>
 					</li>
 					<li><a href="https://forum.claudespeed.de"><span class="a-index fas"></span>Forum</a></li>
-                    <li>
-                        <a class="a-index fas"><img src="img/lang/de_flagge.png"/></a>
+					<li>
+						<a><span class="a-index fas"></span>Font</a>
+						<ul>
+							<select onchange="myFunction(this);" size="14">
+							  <option>Comic Sans MS</option>
+							  <option>Georgia</option>
+							  <option>Palatino Linotype</option>
+							  <option>Book Antiqua</option>
+							  <option>Times New Roman</option>
+							  <option>Arial</option>
+							  <option>Helvetica</option>
+							  <option>Arial Black</option>
+							  <option>Impact</option>
+							  <option>Lucida Sans Unicode</option>
+							  <option>Tahoma</option>
+							  <option>Verdana</option>
+							  <option>Courier New</option>
+							  <option>Lucida Console</option>
+							</select>
+
+							<script>
+								function myFunction(selectTag) {
+								  var listValue = selectTag.options[selectTag.selectedIndex].text;
+								  document.body.style.fontFamily = listValue;
+								}
+							</script>
+						</ul>
+					</li>
+					<li>
+                        <a class="a-index fas"><img src="../../img/lang/de_flagge.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="index_en.html"><img src="img/lang/en_flagge.svg.png"/></a></li>
+                            <li><a class="a-index fas"  href="../en/who-is-shurizma.html"><img src="../../img/lang/en_flagge.svg.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
 
 			</nav>
 
-			<div id="content" class="bg-white">
+				<div id="content" class="bg-white">
 				<h1>Startseite</h1>
 				<div class="activity-feed">
 					<br>
