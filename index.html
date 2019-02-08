@@ -27,7 +27,7 @@
 		<link rel="stylesheet" href="css/styles.css">
     </head>
 
-    <body>
+    <body id="edit">
         <div class="wrapper">
 
 			<header id="header" class="bg-white">
@@ -63,26 +63,38 @@
 					<li>
 						<a><span class="a-index fas"></span>Font</a>
 						<ul>
-							<select onchange="myFunction(this);" size="6">
-							  <option>Comic Sans MS</option>
-							  <option>Georgia</option>
-							  <option>Times New Roman</option>
-							  <option>Arial</option>
-							  <option>Arial Black</option>
-							  <option>Impact</option>
-							  <option>Lucida Sans Unicode</option>
-							  <option>Tahoma</option>
-							  <option>Verdana</option>
-							  <option>Courier New</option>
-							  <option>Lucida Console</option>
-                              <option>PT Sans</option>
-							</select>
+                            <select id="selecth1FontFamily">
+                              <option value="Comic Sans MS">Comic Sans MS</option>
+							  <option value="Georgia">Georgia</option>
+							  <option value="Times New Roman">Times New Roman</option>
+							  <option value="Arial">Arial</option>
+							  <option value="Arial Black">Arial Black</option>
+							  <option value="Impact">Impact</option>
+							  <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+							  <option value="Tahoma">Tahoma</option>
+							  <option value="Verdana">Verdana</option>
+							  <option value="Courier New">Courier New</option>
+							  <option value="Lucida Console">Lucida Console</option>
+                              <option value="PT Sans">PT Sans</option>>
+                            </select>
 
 							<script>
-								function myFunction(selectTag) {
-								  var listValue = selectTag.options[selectTag.selectedIndex].text;
-								  document.body.style.fontFamily = listValue;
-								}
+								var selector = document.getElementById('selecth1FontFamily');
+                                var asd = document.getElementById('edit');
+
+                                if (localStorage.length != 0) {
+                                    asd.style.fontFamily = localStorage.font;
+                                    asd.value = localStorage.font;
+                                }else{
+                                    localStorage.setItem('font', '');
+                                }
+
+
+                                selector.onchange = function(){
+                                    var family = this.value;
+                                    asd.style.fontFamily = family;
+                                    localStorage.font = family;
+                                }
 							</script>
 						</ul>
 					</li>
@@ -101,8 +113,10 @@
 				<h1>Startseite</h1>
 				<div class="activity-feed">
 					<br>
-					<p>Es wird aktuell an der Website gearbeitet und da ich nebenbei noch streamen muss dauert es etwas, da ich einiges geplant habe!</p>
-					<p>Ich versuche trotzdem mich dabei zu beeilen! Aber nebenbei baue ich auch noch das Forum auf und schreibe noch Websiten für verschiedene Leute.</p>
+					<p>Es wird aktuell nicht an dieser Website gearbeitet, da ich keinen richtigen Sinn darin sehe etwas zu machen, wenn es nicht neues von mir zu hören gibt!</p>
+                    <p>Meine 'Streaming-Karriere' ist aktuell still gelegt und ich arbeite auch aktuell an keiner Website, da ich einfach keine Zeit dafür habe und ebenfalls kein Interesse weiterhin kostenlos Websiten zuerstellen und dann zusehen wie die Leute kurz darauf weg sind, den Kontakt abbrechen und ich mit deren Websites und Domains da sitze.</p>
+                    <p>Ich verlange nichts für meine Websites und kümmere mich auch darum, dass eine kostenlose Webspace mit Domain verfügbar ist, wobei sowohl Webspace, welche ich zwar sowieso besitze, als auch Domain mich Geld kosten.</p>
+                    <p>Ich habe aktuell keine Arbeit und bin auf der Suche nach einer Ausbildung, verdiene also auch kein Geld und solche Aktionen kann und will ich mir einfach nicht mehr leisten.</p>
 					<br>
 				</div>
 			</div>

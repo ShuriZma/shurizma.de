@@ -63,26 +63,38 @@
 					<li>
 						<a><span class="a-index fas"></span>Font</a>
 						<ul>
-							<select onchange="myFunction(this);" size="6">
-							  <option>Comic Sans MS</option>
-							  <option>Georgia</option>
-							  <option>Times New Roman</option>
-							  <option>Arial</option>
-							  <option>Arial Black</option>
-							  <option>Impact</option>
-							  <option>Lucida Sans Unicode</option>
-							  <option>Tahoma</option>
-							  <option>Verdana</option>
-							  <option>Courier New</option>
-							  <option>Lucida Console</option>
-                              <option>PT Sans</option>
-							</select>
+							<select id="selecth1FontFamily">
+                              <option value="Comic Sans MS">Comic Sans MS</option>
+							  <option value="Georgia">Georgia</option>
+							  <option value="Times New Roman">Times New Roman</option>
+							  <option value="Arial">Arial</option>
+							  <option value="Arial Black">Arial Black</option>
+							  <option value="Impact">Impact</option>
+							  <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
+							  <option value="Tahoma">Tahoma</option>
+							  <option value="Verdana">Verdana</option>
+							  <option value="Courier New">Courier New</option>
+							  <option value="Lucida Console">Lucida Console</option>
+                              <option value="PT Sans">PT Sans</option>>
+                            </select>
 
 							<script>
-								function myFunction(selectTag) {
-								  var listValue = selectTag.options[selectTag.selectedIndex].text;
-								  document.body.style.fontFamily = listValue;
-								}
+								var selector = document.getElementById('selecth1FontFamily');
+                                var asd = document.getElementById('edit');
+
+                                if (localStorage.length != 0) {
+                                    asd.style.fontFamily = localStorage.font;
+                                    asd.value = localStorage.font;
+                                }else{
+                                    localStorage.setItem('font', '');
+                                }
+
+
+                                selector.onchange = function(){
+                                    var family = this.value;
+                                    asd.style.fontFamily = family;
+                                    localStorage.font = family;
+                                }
 							</script>
 						</ul>
 					</li>
@@ -101,8 +113,10 @@
 				<h1>Home</h1>
 				<div class="activity-feed">
 					<br>
-					<p>Currently I am working on the website and since I have to stream it will take some time because I have big some plans!</p>
-					<p>I'm still trying to hurry up! But at the same time I also set up the forum and write websites for different people.</p>
+					<p>There's currently no work being done on this website, because I don't see any real sense in doing anything if there's nothing new to hear from me!</p>
+                    <p>My 'streaming career' is currently shut down and I'm not currently working on any website, because I simply don't have time for it and also have no interest in creating free websites and then watch people leave shortly after, break off contact and I'm sitting there with their websites and domains.</p>
+                    <p>I don't charge anything for my websites and also make sure that a free webspace with domain is available, where both webspace, which I own anyway, and domain cost me money.</p>
+                    <p>I currently have no job and am looking for an apprenticeship, so I don't earn any money and I just can't afford such actions anymore.</p>
 					<br>
 				</div>
 			</div>
