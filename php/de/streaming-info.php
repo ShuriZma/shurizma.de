@@ -39,7 +39,8 @@
               "content": {
                 "message": "Diese Website verwendet Cookies, um sicherzustellen, dass du die bestmögliche Erfahrung auf unserer Website machen kannst.",
                 "dismiss": "Verstanden!",
-                "link": "Erfahre mehr"
+                "link": "Erfahre mehr",
+                "href": "https://shurizma.de/php/de/datenschutz.php"
               }
             })});
         </script>
