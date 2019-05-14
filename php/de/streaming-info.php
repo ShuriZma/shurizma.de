@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <title>ShuriZma: Legal Notice</title>
+        <title>ShuriZma: Streaming-Info</title>
         <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="../../img/favicon/apple-icon-72x72.png">
@@ -16,12 +16,11 @@
         <link rel="apple-touch-icon" sizes="144x144" href="../../img/favicon/apple-icon-144x144.png">
         <link rel="apple-touch-icon" sizes="152x152" href="../../img/favicon/apple-icon-152x152.png">
         <link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="i../../mg/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../../img/favicon/android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="../../img/favicon/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
         <link rel="manifest" href="../../js/manifest.json">
-        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
         <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
         <script>
             window.addEventListener("load", function(){
@@ -36,7 +35,12 @@
                   "border": "#f1d600"
                 }
               },
-              "position": "top"
+              "position": "top",
+              "content": {
+                "message": "Diese Website verwendet Cookies, um sicherzustellen, dass du die bestmögliche Erfahrung auf unserer Website machen kannst.",
+                "dismiss": "Verstanden!",
+                "link": "Erfahre mehr"
+              }
             })});
         </script>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -45,19 +49,19 @@
 		<link rel="stylesheet" href="../../css/styles.css">
     </head>
 
-    <body class="default-font">
+    <body id="edit">
         <div class="wrapper">
 
 			<header id="header" class="bg-white">
 				<div class="header-bg">
-                    <a href="../../index_en.html">
+                    <a href="../../index.php">
                         <div class="logo-wrapper">
 
                             <img class="logo-img" src="../../img/shurizma.png">
 
                             <div class="logo-title">
                                 <h1>ShuriZma</h1>
-                                <h2>Official Homepage</h2>
+                                <h2>Offizielle Homepage</h2>
                             </div>
 
                         </div>
@@ -68,13 +72,13 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="../../index_en.html"><span class="a-index fas"></span>Home</a></li>
+					<li><a href="../../index.php"><span class="a-index fas"></span>Startseite</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="who-is-shurizma.html"><span class="a-index fas"></span>Who is ShuriZma</a></li>
-							<li><a class="no-text-transform" href="streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="partners.html"><span class="a-index fas"></span>Partners</a></li>
+							<li><a class="no-text-transform" href="wer-ist-shurizma.php"><span class="a-index fas"></span>Wer ist ShuriZma</a></li>
+							<li><a class="no-text-transform" href="streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="partner.php"><span class="a-index fas"></span>Partner</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
@@ -117,10 +121,10 @@
 						</ul>
 					</li>
 					<li>
-                        <a class="a-index fas"><img src="../../img/lang/en_flagge.svg.png"/></a>
+                        <a class="a-index fas"><img src="../../img/lang/de_flagge.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="../de/impressum.html"><img src="../../img/lang/de_flagge.png"/></a></li>
+                            <li><a class="a-index fas"  href="../en/streaming-info.php"><img src="../../img/lang/en_flagge.svg.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
@@ -128,24 +132,25 @@
 			</nav>
 
 			<div id="content" class="bg-white">
-                <h1>Legal notice</h1>
-
-                <h2>Information according to &sect; 5 TMG</h2>
-                <p>Markus Heß<br>
-                    An der Wuhlheide 148<br>
-                    12459 Berlin</p>
-
-                <h2>Contact</h2>
-                <p>Telephone: +49 (0) 176 21 40 88 50<br>
-                    E-Mail: shurizma@shurizma.de</p>
+				<h1>Streaming-Info</h1>
+				<p>Wie viele von euch wissen streame ich auf Twitch.</p>
+				<p>Manche fragen sich jedoch was ich so alles streame.</p>
+				<p>Auf <a class="red-link" href="https://twitch.tv/shurizma">ShuriZma</a> werde ich meine Standard-Spiele spielen und ab und zu mal ein neues Spiel antesten, insofern Interesse daran besteht<span class="red-link">*</span>.</p>
+				<p>Welche Spiele ich streame steht noch nicht ganz fest, aber einige davon werden sicherlich BO4, L4D2, Payday 2, MW3 und vielleicht auch Warface sein.</p>
+				<p>Falls ich in Spielen wie L4D2, Payday 2, MW3 Survival oder BO4 Zombies<span class="red-link">**</span> noch einen PLatz frei habe, seid ihr immer herzlichst dazu eingeladen mit zu spielen. Beachtet jedoch, dass nicht immer jeder mitmachen kann!</p>
+				<br>
+				<p>Demnächst folgt hier noch ein Streamingplan!</p>
+				<br>
+				<p class="hinweis"><span class="red-link">*</span>Das Bedeutet auch, dass wenn ihr wollt dass ich ein Spiel teste, könnt ihr das gerne ansprechen.</p>
+				<p class="hinweis"><span class="red-link">**</span>Natürlich werde ich auch mal private Lobbys im PvP machen und dort Zuschauer einladen, aber in  PvE Spielmodis suche ich immer Leute.</p>
 			</div>
 			<div >
-                <a class="a-index fas footer-link" href="privacy-statement.html">Privacy Statement</a>
-                <a class="a-index fas footer-link" href="legal-notice.html">Legal Notice</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+                <a class="footer-link" href="datenschutz.php"><span class="a-index fas"></span>Datenschutzerklärung</a>
+                <a class="footer-link" href="impressum.php"><span class="a-index fas"></span>Impressum</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.shurizma.de">
-                        <img class="hypesquad" src="../../img/hypesquad-white.png">
+                    <img class="hypesquad" src="../../img/hypesquad-white.png">
                         <p class="hypesquad">Join our Discord</p>
                     </a>
 				</div>

@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <title>ShuriZma: Homepage</title>
+        <title>ShuriZma: Startseite</title>
         <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
@@ -36,7 +36,12 @@
                   "border": "#f1d600"
                 }
               },
-              "position": "top"
+              "position": "top",
+              "content": {
+                "message": "Diese Website verwendet Cookies, um sicherzustellen, dass du die bestmögliche Erfahrung auf unserer Website machen kannst.",
+                "dismiss": "Verstanden!",
+                "link": "Erfahre mehr"
+              }
             })});
         </script>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -50,14 +55,14 @@
 
 			<header id="header" class="bg-white">
 				<div class="header-bg">
-                    <a href="../../index_en.html">
+                    <a href="index.php">
                         <div class="logo-wrapper">
 
                             <img class="logo-img" src="img/shurizma.png">
 
                             <div class="logo-title">
                                 <h1>ShuriZma</h1>
-                                <h2>Official Homepage</h2>
+                                <h2>Offizielle Homepage</h2>
                             </div>
 
                         </div>
@@ -68,20 +73,20 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="../../index_en.html"><span class="a-index fas"></span>Home</a></li>
+					<li><a href="index.php"><span class="a-index fas"></span>Startseite</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="html/en/who-is-shurizma.html"><span class="a-index fas"></span>Who is ShuriZma</a></li>
-							<li><a class="no-text-transform" href="html/en/streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="html/en/partners.html"><span class="a-index fas"></span>Partners</a></li>
+							<li><a class="no-text-transform" href="php/de/wer-ist-shurizma.php"><span class="a-index fas"></span>Wer ist ShuriZma</a></li>
+							<li><a class="no-text-transform" href="php/de/streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="php/de/partner.php"><span class="a-index fas"></span>Partner</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Font</a>
 						<ul>
-							<select id="selecth1FontFamily">
+                            <select id="selecth1FontFamily">
                               <option value="Comic Sans MS">Comic Sans MS</option>
 							  <option value="Georgia">Georgia</option>
 							  <option value="Times New Roman">Times New Roman</option>
@@ -117,10 +122,10 @@
 						</ul>
 					</li>
 					<li>
-                        <a class="a-index fas"><img src="img/lang/en_flagge.svg.png"/></a>
+                        <a class="a-index fas"><img src="img/lang/de_flagge.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="index.html"><img src="img/lang/de_flagge.png"/></a></li>
+                            <li><a class="a-index fas"  href="index_en.php"><img src="img/lang/en_flagge.svg.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
@@ -128,20 +133,21 @@
 			</nav>
 
 				<div id="content" class="bg-white">
-                    <h1>Home</h1>
+                    <h1>Startseite</h1>
                     <div class="activity-feed">
                         <br>
-                        <p>Welcome to the official website of ShuriZma.</p>
-                        <p>Here you will find some small information about me and there will be new infos on a regular basis.</p>
+                        <p>Willkommen auf der offiziellen Website von ShuriZma.</p>
+                        <p>Hier findet ihr einige kleinere Informationen zu mir und es werden regelmäßig neue Infos folgen.</p>
                         <br>
+
                     </div>
                     <br>
                     <iframe src="https://player.twitch.tv/?channel=shurizma" frameborder="0" allowfullscreen="true" scrolling="no" height="248" width="443"></iframe>
-			</div>
-			<div >
-                <a class="footer-link" href="html/en/privacy-statement.html"><span class="a-index fas"></span>Privacy statement</a>
-                <a class="footer-link" href="html/en/legal-notice.html"><span class="a-index fas"></span>Legal notice</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+            </div>
+            <div >
+                <a class="footer-link" href="php/de/datenschutz.php"><span class="a-index fas"></span>Datenschutzerklärung</a>
+                <a class="footer-link" href="php/de/impressum.php"><span class="a-index fas"></span>Impressum</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.shurizma.de">
                     <img class="hypesquad" src="img/hypesquad-white.png">

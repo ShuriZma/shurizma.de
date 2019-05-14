@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <title>ShuriZma: Terms of Service</title>
+        <title>ShuriZma: Wer ist ShuriZma</title>
         <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="../../img/favicon/apple-icon-72x72.png">
@@ -16,12 +16,11 @@
         <link rel="apple-touch-icon" sizes="144x144" href="../../img/favicon/apple-icon-144x144.png">
         <link rel="apple-touch-icon" sizes="152x152" href="../../img/favicon/apple-icon-152x152.png">
         <link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="i../../mg/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../../img/favicon/android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="../../img/favicon/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
         <link rel="manifest" href="../../js/manifest.json">
-        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
         <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
         <script>
             window.addEventListener("load", function(){
@@ -36,7 +35,12 @@
                   "border": "#f1d600"
                 }
               },
-              "position": "top"
+              "position": "top",
+              "content": {
+                "message": "Diese Website verwendet Cookies, um sicherzustellen, dass du die bestmögliche Erfahrung auf unserer Website machen kannst.",
+                "dismiss": "Verstanden!",
+                "link": "Erfahre mehr"
+              }
             })});
         </script>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -45,19 +49,19 @@
 		<link rel="stylesheet" href="../../css/styles.css">
     </head>
 
-    <body class="default-font">
+    <body id="edit">
         <div class="wrapper">
 
 			<header id="header" class="bg-white">
 				<div class="header-bg">
-                    <a href="../../index_en.html">
+                    <a href="../../index.php">
                         <div class="logo-wrapper">
 
                             <img class="logo-img" src="../../img/shurizma.png">
 
                             <div class="logo-title">
                                 <h1>ShuriZma</h1>
-                                <h2>Official Homepage</h2>
+                                <h2>Offizielle Homepage</h2>
                             </div>
 
                         </div>
@@ -68,13 +72,13 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="../../index_en.html"><span class="a-index fas"></span>Home</a></li>
+					<li><a href="../../index.php"><span class="a-index fas"></span>Startseite</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="who-is-shurizma.html"><span class="a-index fas"></span>Who is ShuriZma</a></li>
-							<li><a class="no-text-transform" href="streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="partners.html"><span class="a-index fas"></span>Partners</a></li>
+							<li><a class="no-text-transform" href="wer-ist-shurizma.php"><span class="a-index fas"></span>Wer ist ShuriZma</a></li>
+							<li><a class="no-text-transform" href="streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="partner.php"><span class="a-index fas"></span>Partner</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
@@ -117,10 +121,10 @@
 						</ul>
 					</li>
 					<li>
-                        <a class="a-index fas"><img src="../../img/lang/en_flagge.svg.png"/></a>
+                        <a class="a-index fas"><img src="../../img/lang/de_flagge.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="../de/termsofservice.html"><img src="../../img/lang/de_flagge.png"/></a></li>
+                            <li><a class="a-index fas"  href="../en/who-is-shurizma.php"><img src="../../img/lang/en_flagge.svg.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
@@ -128,57 +132,40 @@
 			</nav>
 
 			<div id="content" class="bg-white">
-                <h1>Disclaimer</h1>
-                <h2>Limitation of liability for own content</h2>
-
-                <p>All contents of our website have been created with care and to the best of our knowledge.<br>
-                    A guarantee for the topicality, completeness and correctness of all sides cannot be taken over however.</p>
-
-                <br>
-
-                <p>In accordance with § 7 Abs. 1 TMG we are responsible as a service provider for own contents on these sides after the general laws, after §§ 8 to 10 TMG however not obligated, <br>
-                    to monitor the transmitted or stored third-party information. <br>
-                    An immediate removal of these contents takes place from the time of the knowledge of a concrete law breaking and we do not stick before the time of the knowledge acquisition.</p>
-
-                <h2>Limitation of liability for external links</h2>
-
-                <p>Our website contains so-called "external links" (links to third-party websites),<br>
-                    on whose content we have no influence and for which we assume no liability for this reason. <br>
-                    The respective information provider of the linked websites is responsible for the content and correctness of the information. <br>
-                    When the link was made, we were not aware of any legal violations. <br>
-                    Should we become aware of an infringement, the respective link will be removed from our website immediately. </p>
-
-                <h2>Copyright</h2>
-
-                <p>The contents and works published on this website are subject to German copyright law. <br>
-                    Any kind of duplication, processing, <br>
-                    Distribution and any kind of use outside the limits of copyright law requires the prior written consent of the respective author or originator.</p>
-
-                <h2>Privacy protection</h2>
-
-                <p>By visiting our website information about the access (date, time, page accessed) can be stored on the server.
-                    This does not constitute an evaluation of personal data (e.g. name, address or e-mail address). <br>
-                    Insofar as personal data is collected, this is done - if possible - only with the prior consent of the user of the website. <br>
-                    The data will not be passed on to third parties without the express consent of the user.</p>
-                <br>
-
-
-                <p>We expressly point out that the transmission of data on the Internet (e.g. by e-mail) can have security gaps. <br>
-                    A complete protection of the data against the access of third parties cannot be guaranteed.<br>
-                    We cannot accept any liability for the damage caused by such security gaps.</p>
-
-                <br>
-
-                <p>The use of published contact data by third parties for the purpose of advertising is expressly prohibited.<br>
-                    We reserve the right to take legal action against unsolicited mailing or e-mailing of spam and other similar advertising materials.</p>
+				<h1>Wer ist ShuriZma?</h1>
+				<p>Das ist tatsächlich keine schlechte Frage!</p>
+				<p>Hier erst einmal ein paar grundlegende Infos zu mir:</p>
+				<ul>
+					<li>Ich bin aktuell 18 Jahre alt</li>
+					<li>Ich lebe in Berlin</li>
+					<li>ShuriZma ist nicht mein echter Name (das  wissen ja nicht alle)</li>
+					<li>Ich bin zu faul jedes Jahr mein Alter zu aktualisieren<span class="red-link">*</span></li>
+				</ul>
+				<p>So da ich erstmal die wichtigsten Dinge klargestellt habe können wir ja dann weiter machen.</p>
+				<p>Aktuell gehe ich noch zur Schule (hoffentlich aber nicht mehr lange, habe nämlich mehr Spaß am arbeiten), weshalb ich so wie viele andere auch erst am Nachmittag Zeit für die wirklich wichtigen Dinge des Lebens habe.</p>
+				<br>
+				<p>Für alle die jetzt sagen, dass sich das nicht ändern wird wenn ich arbeiten gehe. Doch natürlich ändert sich das, schließlich ist Arbeit eines der wichtigen Dinge im Leben.</p>
+				<br>
+				<p>So da das nun geklärt wäre weiter im Text.</p>
+				<p>Frage ist nur was die Leute überhaupt über mich wissen wollen, falls sie überhaupt etwas über mich wissen wollen.</p>
+				<p>Dann fang ich einfach mal mit meinen Hobbys an.</p>
+				<p>Tatsächlich habe ich eine Menge Spaß daran Websites zu schreiben und immer wieder neues im Bereich Web-Entwicklung/-Design zu lernen und zu testen. Ich habe sowohl in HTML, CSS als auch in PHP und Java-Script ein Zertifikat.</p>
+				<p>Ich bin ein großer Fan von formellen Sprachen<span class="red-link">**</span>. Zudem übe ich mich aktuell in der Systemadministration.</p>
+				<p>Aber auch außerhalb der Informatik habe ich Hobbies (wäre schlimm wenn nicht (richtiger No-Lifer)).</p>
+				<p>Beispielsweise zocke ich gerne mit Kumpels (und streame dann meine nicht vorhandenen Gameplays), meistens Shooter wie BO4 und bevorzugt Zombies :P.</p>
+				<p>Aber noch viel mehr als alles andere LIEBE ich es Musik zu hören. Die Leute fragen mich immer was ich gerne höre. Darauf gibt es actually gar keine Antwort, da ich beinahe alles höre, in Dauerschleife, Tag und Nacht, 24/7, non-stop.</p>
+				<p>Eigentlich gibt es sonst nichts über mich zu sagen. Ich bin halt ein ganz normaler Junge, bis auf den Fakt, dass ich nicht so toxic bin wie viele anderen und nicht 24/7 beleidigen und trollen muss (darauf steh ich nicht, also lasst es lieber bei mir. Ansonsten Bann :P).</p>
+				<br>
+				<p class="hinweis"><span class="red-link">*</span>Ich werde mein Alter auf der Seite natürlich trotzdem akutell halten, könnte jedoch ein paar Tage nach meinen Geburtstagen geschehen.</p>
+				<p class="hinweis"><span class="red-link">**</span>formelle Sprachen sind Programmiersprachen, Sprachen wie Deutsch und Englisch nennt man natürliche Sprachen.</p>
 			</div>
 			<div >
-                <a class="a-index fas footer-link" href="privacy-statement.html">Privacy Statement</a>
-                <a class="a-index fas footer-link" href="legal-notice.html">Legal Notice</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+                <a class="footer-link" href="datenschutz.php"><span class="a-index fas"></span>Datenschutzerklärung</a>
+                <a class="footer-link" href="impressum.php"><span class="a-index fas"></span>Impressum</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.shurizma.de">
-                        <img class="hypesquad" src="../../img/hypesquad-white.png">
+                    <img class="hypesquad" src="../../img/hypesquad-white.png">
                         <p class="hypesquad">Join our Discord</p>
                     </a>
 				</div>

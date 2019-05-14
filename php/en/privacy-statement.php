@@ -50,7 +50,7 @@
 
 			<header id="header" class="bg-white">
 				<div class="header-bg">
-                    <a href="../../index_en.html">
+                    <a href="../../index_en.php">
                         <div class="logo-wrapper">
 
                             <img class="logo-img" src="../../img/shurizma.png">
@@ -68,13 +68,13 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="../../index_en.html"><span class="a-index fas"></span>Home</a></li>
+					<li><a href="../../index_en.php"><span class="a-index fas"></span>Home</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="who-is-shurizma.html"><span class="a-index fas"></span>Who is ShuriZma</a></li>
-							<li><a class="no-text-transform" href="streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="partners.html"><span class="a-index fas"></span>Partners</a></li>
+							<li><a class="no-text-transform" href="who-is-shurizma.php"><span class="a-index fas"></span>Who is ShuriZma</a></li>
+							<li><a class="no-text-transform" href="streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="partners.php"><span class="a-index fas"></span>Partners</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
@@ -120,7 +120,7 @@
                         <a class="a-index fas"><img src="../../img/lang/en_flagge.svg.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="../de/datenschutz.html"><img src="../../img/lang/de_flagge.png"/></a></li>
+                            <li><a class="a-index fas"  href="../de/datenschutz.php"><img src="../../img/lang/de_flagge.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
@@ -208,9 +208,9 @@
                 <p>Further information on Google Web Fonts can be found at <a href="https://developers.google.com/fonts/faq" target="_blank" rel="noopener">https://developers.google.com/fonts/faq</a> and in Google's privacy policy: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=de</a>.</p>
 			</div>
 			<div >
-                <a class="a-index fas footer-link" href="privacy-statement.html">Privacy Statement</a>
-                <a class="a-index fas footer-link" href="legal-notice.html">Legal Notice</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+                <a class="a-index fas footer-link" href="privacy-statement.php">Privacy Statement</a>
+                <a class="a-index fas footer-link" href="legal-notice.php">Legal Notice</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.shurizma.de">
                         <img class="hypesquad" src="../../img/hypesquad-white.png">

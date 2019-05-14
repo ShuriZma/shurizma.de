@@ -6,7 +6,7 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <title>ShuriZma: Who is ShuriZma</title>
+        <title>ShuriZma: Terms of Service</title>
         <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="../../img/favicon/apple-icon-72x72.png">
@@ -45,12 +45,12 @@
 		<link rel="stylesheet" href="../../css/styles.css">
     </head>
 
-    <body id="edit">
+    <body class="default-font">
         <div class="wrapper">
 
 			<header id="header" class="bg-white">
 				<div class="header-bg">
-                    <a href="../../index_en.html">
+                    <a href="../../index_en.php">
                         <div class="logo-wrapper">
 
                             <img class="logo-img" src="../../img/shurizma.png">
@@ -68,13 +68,13 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="../../index_en.html"><span class="a-index fas"></span>Home</a></li>
+					<li><a href="../../index_en.php"><span class="a-index fas"></span>Home</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="who-is-shurizma.html"><span class="a-index fas"></span>Who is ShuriZma</a></li>
-							<li><a class="no-text-transform" href="streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="partners.html"><span class="a-index fas"></span>Partners</a></li>
+							<li><a class="no-text-transform" href="who-is-shurizma.php"><span class="a-index fas"></span>Who is ShuriZma</a></li>
+							<li><a class="no-text-transform" href="streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="partners.php"><span class="a-index fas"></span>Partners</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
@@ -120,7 +120,7 @@
                         <a class="a-index fas"><img src="../../img/lang/en_flagge.svg.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="../de/wer-ist-shurizma.html"><img src="../../img/lang/de_flagge.png"/></a></li>
+                            <li><a class="a-index fas"  href="../de/termsofservice.php"><img src="../../img/lang/de_flagge.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
@@ -128,37 +128,54 @@
 			</nav>
 
 			<div id="content" class="bg-white">
-				<h1>Who is ShuriZma?</h1>
-				<p>That's actually not a bad question!</p>
-				<p>First of all here some basic information about me:</p>
-				<ul>
-					<li>I am currently 18 years old</li>
-					<li>I live in Berlin</li>
-					<li>ShuriZma is not my real name (not everybody knows that)</li>
-					<li>I am too lazy every year to update my age<span class="red-link">*</span></li>
-				</ul>
-				<p>As soon as I have clarified the most important things we can go on.</p>
-				<p>At the moment I'm still going to school (hopefully not for long, because I have more fun working), which is why I, like many others, don't have time for the really important things in life until the afternoon.</p>
-				<br>
-				<p>For all of you who now say that this will not change when I go to work. But of course this changes, after all work is one of the important things in life.</p>
-				<br>
-				<p>So that would be now clarified further in the text.</p>
-				<p>Question is just what people want to know about me, if they want to know anything about me at all.</p>
-				<p>Then I just start with my hobbies.</p>
-				<p>In fact I have a lot of fun writing websites and learning and testing new things in the field of web development/design. I have a certificate in HTML, CSS as well as in PHP and Java-Script.</p>
-				<p>I am a big fan of formal languages<span class="red-link">**</span>. I'm also currently practicing system administration.</p>
-				<p>But also outside computer science I have hobbies (would be bad if not (real No-Lifer)).</p>
-				<p>For example, I like to gamble with buddies (and then stream my non-existent gameplays), mostly shooters like BO4 and prefer zombies :P.</p>
-				<p>But even more than anything I LOVE to listen to music. People always ask me what I like to hear. There is actually no answer to that, since I listen to almost everything, in continuous loop, day and night, 24/7, non-stop.</p>
-				<p> Actually, there's nothing else to say about me. I'm just a normal boy, except for the fact that I'm not as toxic as many others and don't have to insult and troll 24/7 (I don't like that, so leave it with me. Otherwise ban :P).</p>
-				<br>
-				<p class="hinweis"><span class="red-link">*</span>Of course I will keep my age on the site current, but could happen a few days after my birthdays.</p>
-				<p class="hinweis"><span class="red-link">**</span>formal languages are programming languages, languages like German and English are called natural languages.</p>
+                <h1>Disclaimer</h1>
+                <h2>Limitation of liability for own content</h2>
+
+                <p>All contents of our website have been created with care and to the best of our knowledge.<br>
+                    A guarantee for the topicality, completeness and correctness of all sides cannot be taken over however.</p>
+
+                <br>
+
+                <p>In accordance with § 7 Abs. 1 TMG we are responsible as a service provider for own contents on these sides after the general laws, after §§ 8 to 10 TMG however not obligated, <br>
+                    to monitor the transmitted or stored third-party information. <br>
+                    An immediate removal of these contents takes place from the time of the knowledge of a concrete law breaking and we do not stick before the time of the knowledge acquisition.</p>
+
+                <h2>Limitation of liability for external links</h2>
+
+                <p>Our website contains so-called "external links" (links to third-party websites),<br>
+                    on whose content we have no influence and for which we assume no liability for this reason. <br>
+                    The respective information provider of the linked websites is responsible for the content and correctness of the information. <br>
+                    When the link was made, we were not aware of any legal violations. <br>
+                    Should we become aware of an infringement, the respective link will be removed from our website immediately. </p>
+
+                <h2>Copyright</h2>
+
+                <p>The contents and works published on this website are subject to German copyright law. <br>
+                    Any kind of duplication, processing, <br>
+                    Distribution and any kind of use outside the limits of copyright law requires the prior written consent of the respective author or originator.</p>
+
+                <h2>Privacy protection</h2>
+
+                <p>By visiting our website information about the access (date, time, page accessed) can be stored on the server.
+                    This does not constitute an evaluation of personal data (e.g. name, address or e-mail address). <br>
+                    Insofar as personal data is collected, this is done - if possible - only with the prior consent of the user of the website. <br>
+                    The data will not be passed on to third parties without the express consent of the user.</p>
+                <br>
+
+
+                <p>We expressly point out that the transmission of data on the Internet (e.g. by e-mail) can have security gaps. <br>
+                    A complete protection of the data against the access of third parties cannot be guaranteed.<br>
+                    We cannot accept any liability for the damage caused by such security gaps.</p>
+
+                <br>
+
+                <p>The use of published contact data by third parties for the purpose of advertising is expressly prohibited.<br>
+                    We reserve the right to take legal action against unsolicited mailing or e-mailing of spam and other similar advertising materials.</p>
 			</div>
 			<div >
-                <a class="a-index fas footer-link" href="privacy-statement.html">Privacy Statement</a>
-                <a class="a-index fas footer-link" href="legal-notice.html">Legal Notice</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+                <a class="a-index fas footer-link" href="privacy-statement.php">Privacy Statement</a>
+                <a class="a-index fas footer-link" href="legal-notice.php">Legal Notice</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.shurizma.de">
                         <img class="hypesquad" src="../../img/hypesquad-white.png">

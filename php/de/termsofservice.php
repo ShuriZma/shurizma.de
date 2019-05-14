@@ -72,13 +72,13 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="../../index.html"><span class="a-index fas"></span>Startseite</a></li>
+					<li><a href="../../index.php"><span class="a-index fas"></span>Startseite</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="wer-ist-shurizma.html"><span class="a-index fas"></span>Wer ist ShuriZma</a></li>
-							<li><a class="no-text-transform" href="streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="partner.html"><span class="a-index fas"></span>Partner</a></li>
+							<li><a class="no-text-transform" href="wer-ist-shurizma.php"><span class="a-index fas"></span>Wer ist ShuriZma</a></li>
+							<li><a class="no-text-transform" href="streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="partner.php"><span class="a-index fas"></span>Partner</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
@@ -124,7 +124,7 @@
                         <a class="a-index fas"><img src="../../img/lang/de_flagge.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="../en/termsofservice.html"><img src="../../img/lang/en_flagge.svg.png"/></a></li>
+                            <li><a class="a-index fas"  href="../en/termsofservice.php"><img src="../../img/lang/en_flagge.svg.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
@@ -179,9 +179,9 @@
 
 			</div>
 			<div >
-                <a class="a-index fas footer-link" href="datenschutz.html">Datenschutzerklärung</a>
-                <a class="a-index fas footer-link" href="impressum.html">Impressum</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+                <a class="a-index fas footer-link" href="datenschutz.php">Datenschutzerklärung</a>
+                <a class="a-index fas footer-link" href="impressum.php">Impressum</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.claudespeed.de">
                         <img class="hypesquad" src="../../img/hypesquad-white.png">

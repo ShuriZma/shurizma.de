@@ -50,7 +50,7 @@
 
 			<header id="header" class="bg-white">
 				<div class="header-bg">
-                    <a href="../../index_en.html">
+                    <a href="../../index_en.php">
                         <div class="logo-wrapper">
 
                             <img class="logo-img" src="../../img/shurizma.png">
@@ -68,13 +68,13 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="../../index_en.html"><span class="a-index fas"></span>Home</a></li>
+					<li><a href="../../index_en.php"><span class="a-index fas"></span>Home</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="who-is-shurizma.html"><span class="a-index fas"></span>Who is ShuriZma</a></li>
-							<li><a class="no-text-transform" href="streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="partners.html"><span class="a-index fas"></span>Partners</a></li>
+							<li><a class="no-text-transform" href="who-is-shurizma.php"><span class="a-index fas"></span>Who is ShuriZma</a></li>
+							<li><a class="no-text-transform" href="streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="partners.php"><span class="a-index fas"></span>Partners</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
@@ -120,7 +120,7 @@
                         <a class="a-index fas"><img src="../../img/lang/en_flagge.svg.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="../de/streaming-info.html"><img src="../../img/lang/de_flagge.png"/></a></li>
+                            <li><a class="a-index fas"  href="../de/wer-ist-shurizma.php"><img src="../../img/lang/de_flagge.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
@@ -128,22 +128,37 @@
 			</nav>
 
 			<div id="content" class="bg-white">
-				<h1>Streaming-Info</h1>
-				<p>As many of you know I am streaming on Twitch.</p>
-				<p>Some people of you may ask themselves which games I stream.</p>
-				<p>On <a class="red-link" href="https://twitch.tv/shurizma">ShuriZma</a>, I will play my standard games spielen and sometimes also test some new ones, as long as you guys are interested in it<span class="red-link">*</span>.</p>
-				<p>Which games I'm streaming isn't quite sure yet, but some of them will certainly be BO4, L4D2, Payday 2, MW3 and maybe also Warface.</p>
-				<p>If I still have a place available in games like L4D2, Payday 2, MW3 Survival or BO4 Zombies<span class="red-link">**</span>, you are always invited to join in. Note, however, that not everyone can always join in!</p>
+				<h1>Who is ShuriZma?</h1>
+				<p>That's actually not a bad question!</p>
+				<p>First of all here some basic information about me:</p>
+				<ul>
+					<li>I am currently 18 years old</li>
+					<li>I live in Berlin</li>
+					<li>ShuriZma is not my real name (not everybody knows that)</li>
+					<li>I am too lazy every year to update my age<span class="red-link">*</span></li>
+				</ul>
+				<p>As soon as I have clarified the most important things we can go on.</p>
+				<p>At the moment I'm still going to school (hopefully not for long, because I have more fun working), which is why I, like many others, don't have time for the really important things in life until the afternoon.</p>
 				<br>
-				<p>A streaming plan will follow soon!</p>
+				<p>For all of you who now say that this will not change when I go to work. But of course this changes, after all work is one of the important things in life.</p>
 				<br>
-				<p class="hinweis"><span class="red-link">*</span>This also means that if you want me to test a game, please feel free to contact me.</p>
-				<p class="hinweis"><span class="red-link">**</span>Of course I will also do private lobbies in PvP and invite viewers there, but in PvE game modes I'm always looking for people.</p>
+				<p>So that would be now clarified further in the text.</p>
+				<p>Question is just what people want to know about me, if they want to know anything about me at all.</p>
+				<p>Then I just start with my hobbies.</p>
+				<p>In fact I have a lot of fun writing websites and learning and testing new things in the field of web development/design. I have a certificate in HTML, CSS as well as in PHP and Java-Script.</p>
+				<p>I am a big fan of formal languages<span class="red-link">**</span>. I'm also currently practicing system administration.</p>
+				<p>But also outside computer science I have hobbies (would be bad if not (real No-Lifer)).</p>
+				<p>For example, I like to gamble with buddies (and then stream my non-existent gameplays), mostly shooters like BO4 and prefer zombies :P.</p>
+				<p>But even more than anything I LOVE to listen to music. People always ask me what I like to hear. There is actually no answer to that, since I listen to almost everything, in continuous loop, day and night, 24/7, non-stop.</p>
+				<p> Actually, there's nothing else to say about me. I'm just a normal boy, except for the fact that I'm not as toxic as many others and don't have to insult and troll 24/7 (I don't like that, so leave it with me. Otherwise ban :P).</p>
+				<br>
+				<p class="hinweis"><span class="red-link">*</span>Of course I will keep my age on the site current, but could happen a few days after my birthdays.</p>
+				<p class="hinweis"><span class="red-link">**</span>formal languages are programming languages, languages like German and English are called natural languages.</p>
 			</div>
 			<div >
-                <a class="a-index fas footer-link" href="privacy-statement.html">Privacy Statement</a>
-                <a class="a-index fas footer-link" href="legal-notice.html">Legal Notice</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+                <a class="a-index fas footer-link" href="privacy-statement.php">Privacy Statement</a>
+                <a class="a-index fas footer-link" href="legal-notice.php">Legal Notice</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.shurizma.de">
                         <img class="hypesquad" src="../../img/hypesquad-white.png">

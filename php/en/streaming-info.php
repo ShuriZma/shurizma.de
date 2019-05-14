@@ -6,7 +6,7 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <title>ShuriZma: Partners</title>
+        <title>ShuriZma: Who is ShuriZma</title>
         <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="../../img/favicon/apple-icon-72x72.png">
@@ -50,7 +50,7 @@
 
 			<header id="header" class="bg-white">
 				<div class="header-bg">
-                    <a href="../../index_en.html">
+                    <a href="../../index_en.php">
                         <div class="logo-wrapper">
 
                             <img class="logo-img" src="../../img/shurizma.png">
@@ -68,13 +68,13 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="../../index_en.html"><span class="a-index fas"></span>Home</a></li>
+					<li><a href="../../index_en.php"><span class="a-index fas"></span>Home</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="who-is-shurizma.html"><span class="a-index fas"></span>Who is ShuriZma</a></li>
-							<li><a class="no-text-transform" href="streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="partners.html"><span class="a-index fas"></span>Partners</a></li>
+							<li><a class="no-text-transform" href="who-is-shurizma.php"><span class="a-index fas"></span>Who is ShuriZma</a></li>
+							<li><a class="no-text-transform" href="streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="partners.php"><span class="a-index fas"></span>Partners</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
@@ -120,7 +120,7 @@
                         <a class="a-index fas"><img src="../../img/lang/en_flagge.svg.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="../de/partner.html"><img src="../../img/lang/de_flagge.png"/></a></li>
+                            <li><a class="a-index fas"  href="../de/streaming-info.php"><img src="../../img/lang/de_flagge.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
@@ -128,13 +128,22 @@
 			</nav>
 
 			<div id="content" class="bg-white">
-				 <h1>Partners</h1>
-                <p>Here's a list of all my partners:</p>
+				<h1>Streaming-Info</h1>
+				<p>As many of you know I am streaming on Twitch.</p>
+				<p>Some people of you may ask themselves which games I stream.</p>
+				<p>On <a class="red-link" href="https://twitch.tv/shurizma">ShuriZma</a>, I will play my standard games spielen and sometimes also test some new ones, as long as you guys are interested in it<span class="red-link">*</span>.</p>
+				<p>Which games I'm streaming isn't quite sure yet, but some of them will certainly be BO4, L4D2, Payday 2, MW3 and maybe also Warface.</p>
+				<p>If I still have a place available in games like L4D2, Payday 2, MW3 Survival or BO4 Zombies<span class="red-link">**</span>, you are always invited to join in. Note, however, that not everyone can always join in!</p>
+				<br>
+				<p>A streaming plan will follow soon!</p>
+				<br>
+				<p class="hinweis"><span class="red-link">*</span>This also means that if you want me to test a game, please feel free to contact me.</p>
+				<p class="hinweis"><span class="red-link">**</span>Of course I will also do private lobbies in PvP and invite viewers there, but in PvE game modes I'm always looking for people.</p>
 			</div>
-            <div >
-                <a class="a-index fas footer-link" href="privacy-statement.html">Privacy Statement</a>
-                <a class="a-index fas footer-link" href="legal-notice.html">Legal Notice</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+			<div >
+                <a class="a-index fas footer-link" href="privacy-statement.php">Privacy Statement</a>
+                <a class="a-index fas footer-link" href="legal-notice.php">Legal Notice</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.shurizma.de">
                         <img class="hypesquad" src="../../img/hypesquad-white.png">

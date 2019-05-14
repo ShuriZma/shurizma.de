@@ -1,26 +1,26 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
     <head>
         <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="../../img/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-        <title>ShuriZma: Startseite</title>
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-        <link rel="manifest" href="js/manifest.json">
+        <title>ShuriZma: Partners</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="../../img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../../img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../../img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../../img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../../img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../../img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../../img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../../img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../../img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="i../../mg/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../../img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="../../js/manifest.json">
         <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
         <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
         <script>
@@ -36,18 +36,13 @@
                   "border": "#f1d600"
                 }
               },
-              "position": "top",
-              "content": {
-                "message": "Diese Website verwendet Cookies, um sicherzustellen, dass du die bestmögliche Erfahrung auf unserer Website machen kannst.",
-                "dismiss": "Verstanden!",
-                "link": "Erfahre mehr"
-              }
+              "position": "top"
             })});
         </script>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="../../css/styles.css">
     </head>
 
     <body id="edit">
@@ -55,14 +50,14 @@
 
 			<header id="header" class="bg-white">
 				<div class="header-bg">
-                    <a href="index.html">
+                    <a href="../../index_en.php">
                         <div class="logo-wrapper">
 
-                            <img class="logo-img" src="img/shurizma.png">
+                            <img class="logo-img" src="../../img/shurizma.png">
 
                             <div class="logo-title">
                                 <h1>ShuriZma</h1>
-                                <h2>Offizielle Homepage</h2>
+                                <h2>Official Homepage</h2>
                             </div>
 
                         </div>
@@ -73,20 +68,20 @@
 			<nav class="nav-wrapper bg-white">
 
 				<ul>
-					<li><a href="index.html"><span class="a-index fas"></span>Startseite</a></li>
+					<li><a href="../../index_en.php"><span class="a-index fas"></span>Home</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Info</a>
 						<ul>
-							<li><a class="no-text-transform" href="html/de/wer-ist-shurizma.html"><span class="a-index fas"></span>Wer ist ShuriZma</a></li>
-							<li><a class="no-text-transform" href="html/de/streaming-info.html"><span class="a-index fas"></span>Streaming-Info</a></li>
-                            <li><a class="no-text-transform" href="html/de/partner.html"><span class="a-index fas"></span>Partner</a></li>
+							<li><a class="no-text-transform" href="who-is-shurizma.php"><span class="a-index fas"></span>Who is ShuriZma</a></li>
+							<li><a class="no-text-transform" href="streaming-info.php"><span class="a-index fas"></span>Streaming-Info</a></li>
+                            <li><a class="no-text-transform" href="partners.php"><span class="a-index fas"></span>Partners</a></li>
 						</ul>
 					</li>
 					<li><a href="https://forum.shurizma.de"><span class="a-index fas"></span>Forum</a></li>
 					<li>
 						<a><span class="a-index fas"></span>Font</a>
 						<ul>
-                            <select id="selecth1FontFamily">
+							<select id="selecth1FontFamily">
                               <option value="Comic Sans MS">Comic Sans MS</option>
 							  <option value="Georgia">Georgia</option>
 							  <option value="Times New Roman">Times New Roman</option>
@@ -122,35 +117,27 @@
 						</ul>
 					</li>
 					<li>
-                        <a class="a-index fas"><img src="img/lang/de_flagge.png"/></a>
+                        <a class="a-index fas"><img src="../../img/lang/en_flagge.svg.png"/></a>
 
                         <ul>
-                            <li><a class="a-index fas"  href="index_en.html"><img src="img/lang/en_flagge.svg.png"/></a></li>
+                            <li><a class="a-index fas"  href="../de/partner.php"><img src="../../img/lang/de_flagge.png"/></a></li>
                         </ul>
                     </li>
 				</ul>
 
 			</nav>
 
-				<div id="content" class="bg-white">
-                    <h1>Startseite</h1>
-                    <div class="activity-feed">
-                        <br>
-                        <p>Willkommen auf der offiziellen Website von ShuriZma.</p>
-                        <p>Hier findet ihr einige kleinere Informationen zu mir und es werden regelmäßig neue Infos folgen.</p>
-                        <br>
-
-                    </div>
-                    <br>
-                    <iframe src="https://player.twitch.tv/?channel=shurizma" frameborder="0" allowfullscreen="true" scrolling="no" height="248" width="443"></iframe>
-            </div>
+			<div id="content" class="bg-white">
+				 <h1>Partners</h1>
+                <p>Here's a list of all my partners:</p>
+			</div>
             <div >
-                <a class="footer-link" href="html/de/datenschutz.html"><span class="a-index fas"></span>Datenschutzerklärung</a>
-                <a class="footer-link" href="html/de/impressum.html"><span class="a-index fas"></span>Impressum</a>
-                <p class="footer">&copy;2018-2019 Copyright ShuriZma, All Rights Reserved.</p>
+                <a class="a-index fas footer-link" href="privacy-statement.php">Privacy Statement</a>
+                <a class="a-index fas footer-link" href="legal-notice.php">Legal Notice</a>
+                <p class="footer">&copy;2018-<?php echo date("Y"); ?> Copyright ShuriZma, All Rights Reserved.</p>
 				<div class="container-hypesquad">
                     <a href="https://discord.shurizma.de">
-                    <img class="hypesquad" src="img/hypesquad-white.png">
+                        <img class="hypesquad" src="../../img/hypesquad-white.png">
                         <p class="hypesquad">Join our Discord</p>
                     </a>
 				</div>
