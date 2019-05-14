@@ -21,7 +21,8 @@
         <link rel="icon" type="image/png" sizes="96x96" href="../../img/favicon/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon/favicon-16x16.png">
         <link rel="manifest" href="../../js/manifest.json">
-       <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
         <script>
             window.addEventListener("load", function(){
             window.cookieconsent.initialise({
