@@ -132,7 +132,18 @@
 				<p>That's actually not a bad question!</p>
 				<p>First of all here some basic information about me:</p>
 				<ul>
-					<li>I am currently 18 years old</li>
+					<li>Ich bin aktuell
+                        <?php
+                          //date in mm/dd/yyyy format; or it can be in other formats as well
+                          $birthDate = "04/12/2001";
+                          //explode the date to get month, day and year
+                          $birthDate = explode("/", $birthDate);
+                          //get age from date or birthdate
+                          $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+                            ? ((date("Y") - $birthDate[2]) - 1)
+                            : (date("Y") - $birthDate[2]));
+                          echo $age;
+                        ?> Jahre alt</li>
 					<li>I live in Berlin</li>
 					<li>ShuriZma is not my real name (not everybody knows that)</li>
 					<li>I am too lazy every year to update my age<span class="red-link">*</span></li>
@@ -152,7 +163,7 @@
 				<p>But even more than anything I LOVE to listen to music. People always ask me what I like to hear. There is actually no answer to that, since I listen to almost everything, in continuous loop, day and night, 24/7, non-stop.</p>
 				<p> Actually, there's nothing else to say about me. I'm just a normal boy, except for the fact that I'm not as toxic as many others and don't have to insult and troll 24/7 (I don't like that, so leave it with me. Otherwise ban :P).</p>
 				<br>
-				<p class="hinweis"><span class="red-link">*</span>Of course I will keep my age on the site current, but could happen a few days after my birthdays.</p>
+				<p class="hinweis"><span class="red-link">*</span>My age is now updated by PHP.</p>
 				<p class="hinweis"><span class="red-link">**</span>formal languages are programming languages, languages like German and English are called natural languages.</p>
 			</div>
 			<div >

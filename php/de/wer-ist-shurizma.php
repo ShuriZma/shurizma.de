@@ -136,7 +136,18 @@
 				<p>Das ist tatsächlich keine schlechte Frage!</p>
 				<p>Hier erst einmal ein paar grundlegende Infos zu mir:</p>
 				<ul>
-					<li>Ich bin aktuell 18 Jahre alt</li>
+					<li>Ich bin aktuell
+                        <?php
+                          //date in mm/dd/yyyy format; or it can be in other formats as well
+                          $birthDate = "04/12/2001";
+                          //explode the date to get month, day and year
+                          $birthDate = explode("/", $birthDate);
+                          //get age from date or birthdate
+                          $age = (date("md", date("U", mktime(0, 0, 0, $birthDate[0], $birthDate[1], $birthDate[2]))) > date("md")
+                            ? ((date("Y") - $birthDate[2]) - 1)
+                            : (date("Y") - $birthDate[2]));
+                          echo $age;
+                        ?> Jahre alt</li>
 					<li>Ich lebe in Berlin</li>
 					<li>ShuriZma ist nicht mein echter Name (das  wissen ja nicht alle)</li>
 					<li>Ich bin zu faul jedes Jahr mein Alter zu aktualisieren<span class="red-link">*</span></li>
@@ -156,7 +167,7 @@
 				<p>Aber noch viel mehr als alles andere LIEBE ich es Musik zu hören. Die Leute fragen mich immer was ich gerne höre. Darauf gibt es actually gar keine Antwort, da ich beinahe alles höre, in Dauerschleife, Tag und Nacht, 24/7, non-stop.</p>
 				<p>Eigentlich gibt es sonst nichts über mich zu sagen. Ich bin halt ein ganz normaler Junge, bis auf den Fakt, dass ich nicht so toxic bin wie viele anderen und nicht 24/7 beleidigen und trollen muss (darauf steh ich nicht, also lasst es lieber bei mir. Ansonsten Bann :P).</p>
 				<br>
-				<p class="hinweis"><span class="red-link">*</span>Ich werde mein Alter auf der Seite natürlich trotzdem akutell halten, könnte jedoch ein paar Tage nach meinen Geburtstagen geschehen.</p>
+				<p class="hinweis"><span class="red-link">*</span>Mein Alter wird inzwischen durch PHP aktualisiert.</p>
 				<p class="hinweis"><span class="red-link">**</span>formelle Sprachen sind Programmiersprachen, Sprachen wie Deutsch und Englisch nennt man natürliche Sprachen.</p>
 			</div>
 			<div >
