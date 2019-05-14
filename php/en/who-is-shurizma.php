@@ -132,8 +132,7 @@
 				<p>That's actually not a bad question!</p>
 				<p>First of all here some basic information about me:</p>
 				<ul>
-					<li>Ich bin aktuell
-                        <?php
+					<li>Ich bin aktuell <?php
                           //date in mm/dd/yyyy format; or it can be in other formats as well
                           $birthDate = "04/12/2001";
                           //explode the date to get month, day and year

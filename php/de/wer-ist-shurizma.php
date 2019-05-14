@@ -136,8 +136,7 @@
 				<p>Das ist tatsächlich keine schlechte Frage!</p>
 				<p>Hier erst einmal ein paar grundlegende Infos zu mir:</p>
 				<ul>
-					<li>Ich bin aktuell
-                        <?php
+					<li>Ich bin aktuell <?php
                           //date in mm/dd/yyyy format; or it can be in other formats as well
                           $birthDate = "04/12/2001";
                           //explode the date to get month, day and year
