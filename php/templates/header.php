@@ -6,8 +6,8 @@
                 <img class="logo-img" src="img/shurizma.png">
 
                 <div class="logo-title">
-                    <h1><?php echo $lang['shurizma'] ?></h1>
-                    <h2><?php echo $lang['header'] ?></h2>
+                    <h1><?php echo $header_lang['shurizma'] ?></h1>
+                    <h2><?php echo $header_lang['header'] ?></h2>
                 </div>
 
             </div>

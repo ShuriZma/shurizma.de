@@ -1,18 +1,19 @@
 <nav class="nav-wrapper bg-white">
 
     <ul>
-        <li><a href="?f=home&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $lang['navbar-home'] ?></a></li>
+        <li><a href="?f=home&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-home'] ?></a></li>
         <li>
-            <a><span class="a-index fas"></span><?php echo $lang['navbar-info'] ?></a>
+            <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-info'] ?></a>
             <ul>
-                <li><a class="no-text-transform" href="?f=wer-ist-shurizma&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $lang['navbar-whois'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=streaming-info&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $lang['navbar-stream'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=partner&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $lang['navbar-partner'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=partner&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-partner'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=speccs&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $navbar_lang['navbar-speccs'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=streaming-info&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-stream'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=wer-ist-shurizma&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $navbar_lang['navbar-whois'] ?></a></li>
             </ul>
         </li>
-        <li><a href="https://forum.shurizma.de"><span class="a-index fas"></span><?php echo $lang['navbar-forum'] ?></a></li>
+        <li><a href="https://forum.shurizma.de"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-forum'] ?></a></li>
         <li>
-            <a><span class="a-index fas"></span><?php echo $lang['navbar-font'] ?></a>
+            <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-font'] ?></a>
             <ul>
                 <select id="selecth1FontFamily">
                     <option value="Comic Sans MS">Comic Sans MS</option>
