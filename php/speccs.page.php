@@ -1,189 +1,189 @@
 <head>
-    <title>ShuriZma: Speccs</title>
+    <title><?php echo $lang['speccs'] ?></title>
 </head>
 
 <div id="content" class="bg-white">
-    <h1>Speccs</h1>
-    <p>Da viele Leute fragen was ich denn so für PC-Speccs habe, habe ich mich dazu entschieden eine Liste anzufertigen!</p>
-    <p>Alle Informationen die ihr hier findet habe ich durch das Programm Speccy erhalten :)</p>
-    <p>Speccy gibt euch noch viel mehr Infos über eure Speccs aber ich notiere nur die Interessantesten.</p>
+    <h1><?php echo $lang['speccs-title'] ?></h1>
+    <p><?php echo $lang['speccs-p1'] ?></p>
+    <p><?php echo $lang['speccs-p2'] ?></p>
+    <p><?php echo $lang['speccs-p3'] ?></p>
     <ul>
         <a href="javascript:toggle('operating-system')">
-            <h4>Operating System</h4>
+            <h4><?php echo $lang['speccs-os'] ?></h4>
         </a>
         <div id="operating-system" style="display:none">
             <ul>
                 <ul>
-                    <li>Windows 10 Home 64-bit (wow)</li>
+                    <li><?php echo $lang['speccs-os-li1'] ?></li>
                 </ul>
             </ul>
         </div>
 
         <a href="javascript:toggle('cpu-prozessor')">
-            <h4>CPU</h4>
+            <h4><?php echo $lang['speccs-cpu'] ?></h4>
         </a>
         <div id="cpu-prozessor" style="display:none">
             <ul>
                 <ul>
-                    <li>Intel Core i7-8700K CPU @ 3.70GHz</li>
-                    <li>6 Kerne | 12 Threads</li>
+                    <li><?php echo $lang['speccs-cpu-li1'] ?></li>
+                    <li><?php echo $lang['speccs-cpu-li2'] ?></li>
                 </ul>
             </ul>
         </div>
 
         <a href="javascript:toggle('arbeitsspeicher')">
-            <h4>RAM</h4>
+            <h4><?php echo $lang['speccs-ram'] ?></h4>
         </a>
         <div id="arbeitsspeicher" style="display:none">
             <ul>
                 <ul>
-                    <li>2x DDR4-2666 (1333 MHz) | 8192 MBytes</li>
-                    <li>Total RAM -> 16384 MBytes</li>
+                    <li><?php echo $lang['speccs-ram-li1'] ?></li>
+                    <li><?php echo $lang['speccs-ram-li2'] ?></li>
                 </ul>
             </ul>
         </div>
 
         <a href="javascript:toggle('motherboard')">
-            <h4>Motherboard</h4>
+            <h4><?php echo $lang['speccs-mb'] ?></h4>
         </a>
         <div id="motherboard" style="display:none">
             <ul>
                 <ul>
-                    <li>HP Tampa2 8437</li>
+                    <li><?php echo $lang['speccs-mb-li1'] ?></li>
                 </ul>
             </ul>
         </div>
 
         <a href="javascript:toggle('monitor')">
-            <h4>Bildschirme</h4>
+            <h4><?php echo $lang['speccs-screen'] ?></h4>
         </a>
         <div id="monitor" style="display:none">
             <ul>
                 <a href="javascript:toggle('monitor-1')">
-                    <h5>Monitor 1:</h5>
+                    <h5><?php echo $lang['speccs-screen1'] ?></h5>
                 </a>
                 <div id="monitor-1" style="display:none">
                     <ul>
-                        <li>HP 24o</li>
-                        <li>Full HD 24 Zoll</li>
-                        <li>Reaktionszeit: 1ms</li>
-                        <li>Energie-Effizienzklasse: A+</li>
+                        <li><?php echo $lang['speccs-screen1-li1'] ?></li>
+                        <li><?php echo $lang['speccs-screen1-li2'] ?></li>
+                        <li><?php echo $lang['speccs-screen1-li3'] ?></li>
+                        <li><?php echo $lang['speccs-screen1-li4'] ?></li>
                     </ul>
                 </div>
 
                 <a href="javascript:toggle('monitor-2')">
-                    <h5>Monitor 2:</h5>
+                    <h5><?php echo $lang['speccs-screen2'] ?></h5>
                 </a>
                 <div id="monitor-2" style="display:none">
                     <ul>
-                        <li>Acer K242HL</li>
-                        <li>Full HD 24 Zoll</li>
-                        <li>Reaktionszeit: 5ms</li>
-                        <li>Energie-Effizienzklasse: A</li>
+                        <li><?php echo $lang['speccs-screen2-li1'] ?></li>
+                        <li><?php echo $lang['speccs-screen2-li2'] ?></li>
+                        <li><?php echo $lang['speccs-screen2-li3'] ?></li>
+                        <li><?php echo $lang['speccs-screen2-li4'] ?></li>
                     </ul>
                 </div>
             </ul>
         </div>
         <a href="javascript:toggle('graphicscard')">
-            <h4>GPU</h4>
+            <h4><?php echo $lang['speccs-gpu'] ?></h4>
         </a>
         <div id="graphicscard" style="display:none">
             <ul>
                 <ul>
-                    <li>NVIDIA GeForce GTX 1070</li>
-                    <li>VRAM: 8192 MBytes</li>
-                    <li>Gibt's da noch mehr zu sagen?</li>
+                    <li><?php echo $lang['speccs-gpu-li1'] ?></li>
+                    <li><?php echo $lang['speccs-gpu-li2'] ?></li>
+                    <li><?php echo $lang['speccs-gpu-li3'] ?></li>
                 </ul>
             </ul>
         </div>
 
         <a href="javascript:toggle('speicher')">
-            <h4>Speicher</h4>
+            <h4><?php echo $lang['speccs-speicher'] ?></h4>
         </a>
         <div id="speicher" style="display:none">
             <ul>
                 <a href="javascript:toggle('festplatte-1')">
-                    <h5>Festplatte 1</h5>
+                    <h5><?php echo $lang['speccs-speicher1'] ?></h5>
                 </a>
                 <div id="festplatte-1" style="display:none">
                     <ul>
-                        <li>KBG30ZMV256G TOSHIBA (SSD)</li>
-                        <li>SATA type: SATA-III 6.0Gb/s</li>
-                        <li>Speicherplatz: 238 GB</li>
-                        <li>Echter Speicherplatz: 256.060.514.304 bytes</li>
+                        <li><?php echo $lang['speccs-speicher1-li1'] ?></li>
+                        <li><?php echo $lang['speccs-speicher1-li2'] ?></li>
+                        <li><?php echo $lang['speccs-speicher1-li3'] ?></li>
+                        <li><?php echo $lang['speccs-speicher1-li4'] ?></li>
                     </ul>
                 </div>
 
                 <a href="javascript:toggle('festplatte-2')">
-                    <h5>Festplatte 2</h5>
+                    <h5><?php echo $lang['speccs-speicher2'] ?></h5>
                 </a>
                 <div id="festplatte-2" style="display:none">
                     <ul>
-                        <li>Seagate ST1000DM003-1SB102</li>
-                        <li>SATA type: SATA-III 6.0Gb/s</li>
-                        <li>Speicherplatz: 931 GB</li>
-                        <li>Echter Speicherplatz: 1.000.204.886.016 bytes</li>
+                        <li><?php echo $lang['speccs-speicher2-li1'] ?></li>
+                        <li><?php echo $lang['speccs-speicher2-li2'] ?></li>
+                        <li><?php echo $lang['speccs-speicher2-li3'] ?></li>
+                        <li><?php echo $lang['speccs-speicher2-li4'] ?></li>
                     </ul>
                 </div>
 
                 <a href="javascript:toggle('festplatte-3')">
-                    <h5>Festplatte 3</h5>
+                    <h5><?php echo $lang['speccs-speicher3'] ?></h5>
                 </a>
                 <div id="festplatte-3" style="display:none">
                     <ul>
-                        <li>(Das war mal eine externe Festplatte und ist schon etwas älter)</li>
-                        <li>Western Digital WDC WD15EADS-00P8B0</li>
-                        <li>SATA type: SATA-II 3.0Gb/s</li>
-                        <li>Speicherplatz: 1397 GB</li>
-                        <li>Echter Speicherplatz: 1.500.301.910.016 bytes</li>
+                        <li><?php echo $lang['speccs-speicher3-li1'] ?></li>
+                        <li><?php echo $lang['speccs-speicher3-li2'] ?></li>
+                        <li><?php echo $lang['speccs-speicher3-li3'] ?></li>
+                        <li><?php echo $lang['speccs-speicher3-li4'] ?></li>
+                        <li><?php echo $lang['speccs-speicher3-li5'] ?></li>
                     </ul>
                 </div>
 
                 <a href="javascript:toggle('festplatte-4')">
-                    <h5>Festplatte 4</h5>
+                    <h5><?php echo $lang['speccs-speicher4'] ?></h5>
                 </a>
                 <div id="festplatte-4" style="display:none">
                     <ul>
-                        <li>TOSHIBA External USB 3.0 USB Device</li>
-                        <li>SATA type: SATA III 6.0Gb/s</li>
-                        <li>Speicherplatz: 1863 GB</li>
-                        <li>Echter Speicherplatz: 2.000.398.931.968 bytes</li>
+                        <li><?php echo $lang['speccs-speicher4-li1'] ?></li>
+                        <li><?php echo $lang['speccs-speicher4-li2'] ?></li>
+                        <li><?php echo $lang['speccs-speicher4-li3'] ?></li>
+                        <li><?php echo $lang['speccs-speicher4-li4'] ?></li>
                     </ul>
                 </div>
             </ul>
         </div>
 
         <a href="javascript:toggle('headset-micro')">
-            <h4>Kopfhörer & Mikro</h4>
+            <h4><?php echo $lang['speccs-headset'] ?></h4>
         </a>
         <div id="headset-micro" style="display:none">
             <ul>
                 <ul>
-                    <li>Trust GXT 363 headset</li>
+                    <li><?php echo $lang['speccs-headset-li1'] ?></li>
                 </ul>
             </ul>
         </div>
 
         <a href="javascript:toggle('keyboard-mouse')">
-            <h4>Tastatur & Maus</h4>
+            <h4><?php echo $lang['speccs-keyboard'] ?></h4>
         </a>
         <div id="keyboard-mouse" style="display:none">
             <ul>
                 <ul>
-                    <li>Tastatur: Rapoo VPRO V52</li>
-                    <li>Maus: Keine Ahnung war beim PC dabei XD</li>
+                    <li><?php echo $lang['speccs-keyboard-li1'] ?></li>
+                    <li><?php echo $lang['speccs-keyboard-li2'] ?></li>
                 </ul>
             </ul>
         </div>
 
         <a href="javascript:toggle('other-speccs')">
-            <h4>Anderes</h4>
+            <h4><?php echo $lang['speccs-others'] ?></h4>
         </a>
         <div id="other-speccs" style="display:none">
             <ul>
                 <ul>
-                    <li>10m Lan-Kabel</li>
-                    <li>Bluetooth- & Wlanchips</li>
+                    <li><?php echo $lang['speccs-others-li1'] ?></li>
+                    <li><?php echo $lang['speccs-others-li1'] ?></li>
                 </ul>
             </ul>
         </div>
