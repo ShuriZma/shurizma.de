@@ -183,7 +183,7 @@
             <ul>
                 <ul>
                     <li><?php echo $lang['speccs-others-li1'] ?></li>
-                    <li><?php echo $lang['speccs-others-li1'] ?></li>
+                    <li><?php echo $lang['speccs-others-li2'] ?></li>
                 </ul>
             </ul>
         </div>
