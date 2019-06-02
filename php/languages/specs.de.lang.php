@@ -5,6 +5,7 @@ $lang = array(
     "specs-p1" => "Da viele Leute fragen was ich denn so für PC-Specs habe, habe ich mich dazu entschieden eine Liste anzufertigen!",
     "specs-p2" => "Alle Informationen die ihr hier findet habe ich durch das Programm Speccy erhalten :)",
     "specs-p3" => "Speccy gibt euch noch viel mehr Infos über eure Specs aber ich notiere nur die Interessantesten.",
+    "specs-info1" => "Anklicken zum Öffnen",
     "specs-os" => "Operating System",
     "specs-os-li1" => "Windows 10 Home 64-bit (wow)",
     "specs-cpu" => "CPU",

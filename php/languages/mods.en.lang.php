@@ -7,6 +7,7 @@ $lang = array(
     "mods-p1" => "In games like Payday 2 and Left 4 Dead 2 I play with mods.",
     "mods-p2" => "Many people then ask me which mods and where they get them from.",
     "mods-p3" => "Therefore here is a list of my mod'packs' and also a download possibility.",
+    "mods-info1" => "Click to open",
     "mods-payday2" => "Payday 2",
     "mods-payday2-all-size" => "Size: Archive: 2,67 MB (2.809.856 Bytes) | Unzipped ca. 8,52 MB (8.941.568 Bytes)",
     "mods-payday2-1" => "BLT 2.0",
