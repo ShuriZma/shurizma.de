@@ -5,6 +5,7 @@ $lang = array(
     "partner-list-title" => "Hier ist eine Liste aller meiner Partner:",
     "partner-info1" => "Anklicken zum Öffnen",
     "partner-1" => "Kinguin Mafia",
+    "partner-1-a1" => "Kinguin.com.de",
     "partner-1-p1" => "Hier bekommt ihr fast jedes Spiel zu einem echt günstigen Preis (natürlich im Vergleich zu anderen Preisen).",
     "partner-1-p2" => "Wieso nehme ich bei denen am Affiliate Programm teil?",
     "partner-1-p3" => "Jedes mal wenn ich auf <a class=\"red-link\" href=\"https://keyforsteam.de\">KeyForSteam</a> nach dem besten Preis für ein Spiel suche, ist Kinguin ganz vorn mit dabei!",

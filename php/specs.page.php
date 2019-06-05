@@ -173,6 +173,8 @@
         <div id="headset-micro" style="display:none">
             <ul>
                 <ul>
+                    <li><?php echo $lang['specs-kopfhörer-li1'] ?></li>
+                    <li><?php echo $lang['specs-mikro-li1'] ?></li>
                     <li><?php echo $lang['specs-headset-li1'] ?></li>
                 </ul>
             </ul>

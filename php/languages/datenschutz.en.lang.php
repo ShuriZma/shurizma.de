@@ -74,6 +74,11 @@ $lang = array(
     <h3>Contact form</h3>
     <p>If you send us enquiries via the contact form, your details from the enquiry form including the contact data you entered there will be stored by us for the purpose of processing the enquiry and in the event of follow-up questions. These data will not be disclosed without your consent.</p>
     <h2>4. plugins and tools</h2>
+    <h3>Font Awesome</h3>
+    <p>This site uses web fonts provided by Fonticons, Inc. for the uniform display of fonts. When you open a page, your browser loads the required web fonts into your browser cache to display texts and fonts correctly.</p>
+    <p>For this purpose, the browser you are using must connect to the Fonticons, Inc. servers. By doing so, Fonticons, Inc. becomes aware that your IP address has been used to access our website. The use of web fonts is in the interest of a uniform and appealing presentation of our online services. This constitutes a legitimate interest within the meaning of Art. 6 Para. 1 lit. f DSGVO.</p>
+    <p>If your browser does not support Web Fonts, a default font will be used by your computer.</p>
+    <p>For more information about Font Awesome, see <a href="https://fontawesome.com/help" target="_blank" rel="noopener">https://fontawesome.com/help</a> and Fonticons, Inc.\'s privacy policy: <a href="https://fontawesome.com/privacy" target="_blank" rel="noopener">https://fontawesome.com/privacy</a>.</p>
     <h3>Google Web Fonts</h3>
     <p>This page uses so-called web fonts provided by Google for the uniform display of fonts. When you open a page, your browser will cache the required web fonts in your browser to display text and fonts correctly.</p>
     <p>For this purpose, the browser you use must establish a connection to the Google servers. This will enable Google to know that your IP address has been used to access our website. The use of Google Web Fonts is in the interest of a uniform and appealing presentation of our online services. This constitutes a legitimate interest within the meaning of Art. 6 Para. 1 lit. f DSGVO.</p>
