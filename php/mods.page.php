@@ -29,18 +29,6 @@
                     </ul>
                 </div>
 
-                <a href="javascript:toggle('third-person-cam')">
-                    <h5><?php echo $lang['mods-payday2-2'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="third-person-cam" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-2-li1'] ?></li>
-                        <a class="red-link" href="mods/payday2/3rd Person Longview Driver Camera.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-2-size'] ?></p>
-                    </ul>
-                </div>
-
                 <a href="javascript:toggle('autoweeklysafedropper')">
                     <h5><?php echo $lang['mods-payday2-3'] ?><span class="red-link">*</span></h5>
 
@@ -51,19 +39,6 @@
                         <li><?php echo $lang['mods-payday2-3-li2'] ?></li>
                         <a class="red-link" href="mods/payday2/AutoWeeklySafeDropper.zip" download><?php echo $lang['mods-download'] ?></a>
                         <p class="hinweis"><?php echo $lang['mods-payday2-3-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('betterbots')">
-                    <h5><?php echo $lang['mods-payday2-4'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="betterbots" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-4-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-4-l2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Better Bots.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-4-size'] ?></p>
                     </ul>
                 </div>
 
@@ -105,19 +80,6 @@
                     </ul>
                 </div>
 
-                <a href="javascript:toggle('changelobbynameanytime')">
-                    <h5><?php echo $lang['mods-payday2-8'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="changelobbynameanytime" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-8-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-8-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Change Lobby Name Anytime.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-8-size'] ?></p>
-                    </ul>
-                </div>
-
                 <a href="javascript:toggle('civilianmarkinginstealth')">
                     <h5><?php echo $lang['mods-payday2-9'] ?><span class="red-link">*</span></h5>
 
@@ -128,19 +90,6 @@
                         <li><?php echo $lang['mods-payday2-9-li2'] ?></li>
                         <a class="red-link" href="mods/payday2/Civilian Marking in Stealth.zip" download><?php echo $lang['mods-download'] ?></a>
                         <p class="hinweis"><?php echo $lang['mods-payday2-9-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('customachievementsapi')">
-                    <h5><?php echo $lang['mods-payday2-10'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="customachievementsapi" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-10-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-10-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Custom Achievements API.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-10-size'] ?></p>
                     </ul>
                 </div>
 
@@ -157,45 +106,6 @@
                     </ul>
                 </div>
 
-                <a href="javascript:toggle('ghost145plus')">
-                    <h5><?php echo $lang['mods-payday2-12'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="ghost145plus" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-12-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-12-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Ghost145Plus.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-12-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('goonmodscustomwaypoints')">
-                    <h5><?php echo $lang['mods-payday2-13'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="goonmodscustomwaypoints" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-13-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-13-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Goonmod's Custom Waypoints.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-13-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('hiddencontact')">
-                    <h5><?php echo $lang['mods-payday2-14'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="hiddencontact" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-14-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-14-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Hidden Contact.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-14-size'] ?></p>
-                    </ul>
-                </div>
-
                 <a href="javascript:toggle('identifyvrplayers')">
                     <h5><?php echo $lang['mods-payday2-15'] ?><span class="red-link">*</span></h5>
 
@@ -206,19 +116,6 @@
                         <li><?php echo $lang['mods-payday2-15-li2'] ?></li>
                         <a class="red-link" href="mods/payday2/Identify VR Players.zip" download><?php echo $lang['mods-download'] ?></a>
                         <p class="hinweis"><?php echo $lang['mods-payday2-15-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('infinamy')">
-                    <h5><?php echo $lang['mods-payday2-16'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="infinamy" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-16-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-16-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Infinamy.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-16-size'] ?></p>
                     </ul>
                 </div>
 
@@ -261,46 +158,6 @@
                     </ul>
                 </div>
 
-                <a href="javascript:toggle('iter')">
-                    <h5><?php echo $lang['mods-payday2-20'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="iter" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-20-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-20-li2'] ?></li>
-                        <li><?php echo $lang['mods-payday2-20-li3'] ?></li>
-                        <a class="red-link" href="mods/payday2/Iter.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-20-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('jacketminimap')">
-                    <h5><?php echo $lang['mods-payday2-21'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="jacketminimap" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-21-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-21-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Jacket's Minimap.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-21-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('keepers')">
-                    <h5><?php echo $lang['mods-payday2-22'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="keepers" style="display:none">
-                    <ul>
-                        <h5><?php echo $lang['mods-payday2-22-li1'] ?><span class="red-link">*</span></h5>
-
-                        <a class="red-link" href="mods/payday2/Keepers.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-22-size'] ?></p>
-                    </ul>
-                </div>
-
                 <a href="javascript:toggle('loadingscreeninfo')">
                     <h5><?php echo $lang['mods-payday2-23'] ?><span class="red-link">*</span></h5>
 
@@ -311,19 +168,6 @@
 
                         <a class="red-link" href="mods/payday2/LoadingScreenInfo.zip" download><?php echo $lang['mods-download'] ?></a>
                         <p class="hinweis"><?php echo $lang['mods-payday2-23-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('lobbyinspect')">
-                    <h5><?php echo $lang['mods-payday2-24'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="lobbyinspect" style="display:none">
-                    <ul>
-                        <h5><?php echo $lang['mods-payday2-24-li1'] ?><span class="red-link">*</span></h5>
-
-                        <a class="red-link" href="mods/payday2/Lobby Inspect.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-24-size'] ?></p>
                     </ul>
                 </div>
 
@@ -351,19 +195,6 @@
                         <li><?php echo $lang['mods-payday2-26-li3'] ?></li>
                         <a class="red-link" href="mods/payday2/Monkeepers.zip" download><?php echo $lang['mods-download'] ?></a>
                         <p class="hinweis"><?php echo $lang['mods-payday2-26-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('mrdrfantastic')">
-                    <h5><?php echo $lang['mods-payday2-27'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="mrdrfantastic" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-27-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-27-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Mr. Dr. Fantastic!.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-27-size'] ?></p>
                     </ul>
                 </div>
 
@@ -464,19 +295,6 @@
                         <li><?php echo $lang['mods-payday2-35-li2'] ?></li>
                         <a class="red-link" href="mods/payday2/SimpleCrosshair.zip" download><?php echo $lang['mods-download'] ?></a>
                         <p class="hinweis"><?php echo $lang['mods-payday2-35-size'] ?></p>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('stealthteammateinteractions')">
-                    <h5><?php echo $lang['mods-payday2-36'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="stealthteammateinteractions" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['mods-payday2-36-li1'] ?></li>
-                        <li><?php echo $lang['mods-payday2-36-li2'] ?></li>
-                        <a class="red-link" href="mods/payday2/Stealth Teammate Interactions.zip" download><?php echo $lang['mods-download'] ?></a>
-                        <p class="hinweis"><?php echo $lang['mods-payday2-36-size'] ?></p>
                     </ul>
                 </div>
 
