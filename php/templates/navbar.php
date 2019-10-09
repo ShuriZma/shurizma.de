@@ -12,6 +12,12 @@
                 <li><a class="no-text-transform" href="?f=wer-ist-shurizma&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $navbar_lang['navbar-whois'] ?></a></li>
             </ul>
         </li>
+        <li>
+            <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-games'] ?></a>
+            <ul>
+                <li><a class="no-text-transform" href="?f=payday&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-payday'] ?></a></li>
+            </ul>
+        </li>
         <li><a href="https://forum.shurizma.de"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-forum'] ?></a></li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-font'] ?></a>

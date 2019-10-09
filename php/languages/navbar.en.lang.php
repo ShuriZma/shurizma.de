@@ -7,6 +7,8 @@ $navbar_lang = array(
     "navbar-whois" => "Who is ShuriZma",
     "navbar-stream" => "Streaming-Info",
     "navbar-partner" => "Partners",
+    "navbar-games" => "Games",
+    "navbar-payday" => "Payday",
     "navbar-forum" => "Forum",
     "navbar-font" => "Font",
 );
