@@ -18,6 +18,12 @@
                 <li><a class="no-text-transform" href="?f=payday&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-payday'] ?></a></li>
             </ul>
         </li>
+        <li>
+            <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-gallery'] ?></a>
+            <ul>
+                <li><a class="no-text-transform" href="?f=gta-gallery&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-gta'] ?></a></li>
+            </ul>
+        </li>
         <li><a href="https://forum.shurizma.de"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-forum'] ?></a></li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-font'] ?></a>

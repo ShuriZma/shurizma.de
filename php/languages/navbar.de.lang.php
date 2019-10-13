@@ -9,6 +9,8 @@ $navbar_lang = array(
     "navbar-partner" => "Partner",
     "navbar-games" => "Spiele",
     "navbar-payday" => "Payday",
+    "navbar-gallery" => "Galerie",
+    "navbar-gta" => "Grand Theft Auto",
     "navbar-forum" => "Forum",
     "navbar-font" => "Font",
 );
