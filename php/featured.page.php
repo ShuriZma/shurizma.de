@@ -40,6 +40,7 @@
             </a>
             <p class="hinweis"><?php echo $lang['featured-rapper'] ?></p>
             <p class="hinweis"><?php echo $lang['featured-instagram'] ?><a href="https://www.instagram.com/flowwunder/" class="no-text-transform red-link"><?php echo $lang['featured-flunker-instagram'] ?></a></p>
+            <p class="hinweis"><?php echo $lang['featured-youtube'] ?><a href="https://www.youtube.com/channel/UCfgd-kPPnX8ic7If1cRksIA" class="no-text-transform red-link"><?php echo $lang['featured-flunker-youtube'] ?></a></p>
             <div id="flunker" style="display:none">
                 <ul>
                     <p><?php echo $lang['featured-flunker-p1'] ?></p>
