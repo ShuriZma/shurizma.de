@@ -23,7 +23,7 @@ $lang = array(
     "whois-p9" => "In fact I have a lot of fun writing websites and learning and testing new things in the field of web development/design. I have a certificate in HTML, CSS as well as in PHP and Java-Script.",
     "whois-p10" => 'I am a big fan of formal languages<span class="red-link">**</span>. I\'m also currently practicing system administration.',
     "whois-p11" => "But also outside computer science I have hobbies (would be bad if not (real No-Lifer)).",
-    "whois-p12" => "For example, I like to play with buddies (and then stream my non-existent gameplays), mostly shooters like BO4 and prefer zombies :P.",
+    "whois-p12" => "For example, I like to play with buddies (and then stream my non-existent gameplays), mostly co-op like Payday 2 and prefered stealth :P.",
     "whois-p13" => "But even more than anything I LOVE to listen to music. People always ask me what I like to hear. There is actually no answer to that, since I listen to almost everything, in continuous loop, day and night, 24/7, non-stop.",
     "whois-p14" => "Actually, there's nothing else to say about me. I'm just a normal boy, except for the fact that I'm not as toxic as many others and don't have to insult and troll 24/7 (I don't like that, so leave it with me. Otherwise ban :P).",
     "whois-p15" => "My age is now updated by PHP.",

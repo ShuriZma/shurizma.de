@@ -5,6 +5,7 @@
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-info'] ?></a>
             <ul>
+                <li><a class="no-text-transform" href="?f=featured&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-featured'] ?></a></li>
                 <li><a class="no-text-transform" href="?f=mods&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $navbar_lang['navbar-mods'] ?></a></li>
                 <li><a class="no-text-transform" href="?f=partner&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-partner'] ?></a></li>
                 <li><a class="no-text-transform" href="?f=specs&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $navbar_lang['navbar-specs'] ?></a></li>

@@ -19,6 +19,10 @@ li a {
     text-transform: none;
 }
 
+.no-dots-ul {
+    list-style-type: none;
+}
+
 .bg-white {
     background-color: white;
 }
@@ -281,58 +285,7 @@ p .activity-feed {
     font-family: 'PT Sans';
 }
 
-.image-popup {
-    display: none;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-}
-
-.image-popup .con {
-    display: flex;
-    flex-flow: column;
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 5px;
-}
-
-.image-popup .con h3 {
-    margin: 0;
-    font-size: 18px;
-}
-
-.image-popup .con .edit,
-.image-popup .con .trash {
-    display: inline-flex;
-    justify-content: center;
-    align-self: flex-end;
-    width: 40px;
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 10px 12px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.image-popup .con .trash {
-    background-color: #b73737;
-}
-
-.image-popup .con .trash:hover {
-    background-color: #a33131;
-}
-
-.image-popup .con .edit {
-    background-color: #37afb7;
-}
-
-.image-popup .con .edit:hover {
-    background-color: #319ca3;
+.crew {
+    font-size: 1.2em;
+    font-weight: 600;
 }

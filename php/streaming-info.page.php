@@ -9,8 +9,5 @@
     <p><?php echo $lang['stream-p4'] ?></p>
     <p><?php echo $lang['stream-p5'] ?></p>
     <br>
-    <p><?php echo $lang['stream-p6'] ?></p>
-    <br>
-    <p class="hinweis"><span class="red-link">*</span><?php echo $lang['stream-p7'] ?></p>
-    <p class="hinweis"><span class="red-link">**</span><?php echo $lang['stream-p8'] ?></p>
+    <p class="hinweis"><span class="red-link">*</span><?php echo $lang['stream-hinweis-1'] ?></p>
 </div>

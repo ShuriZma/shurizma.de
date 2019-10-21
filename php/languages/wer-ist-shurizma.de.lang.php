@@ -23,7 +23,7 @@ $lang = array(
     "whois-p9" => "Tatsächlich habe ich eine Menge Spaß daran Websites zu schreiben und immer wieder neues im Bereich Web-Entwicklung/-Design zu lernen und zu testen. Ich habe sowohl in HTML, CSS als auch in PHP und Java-Script ein Zertifikat.",
     "whois-p10" => 'Ich bin ein großer Fan von formellen Sprachen<span class="red-link">**</span>. Zudem übe ich mich aktuell in der Systemadministration.',
     "whois-p11" => "Aber auch außerhalb der Informatik habe ich Hobbies (wäre schlimm wenn nicht (richtiger No-Lifer)).",
-    "whois-p12" => "Beispielsweise zocke ich gerne mit Kumpels (und streame dann meine nicht vorhandenen Gameplays), meistens Shooter wie BO4 und bevorzugt Zombies :P.",
+    "whois-p12" => "Beispielsweise zocke ich gerne mit Kumpels (und streame dann meine nicht vorhandenen Gameplays), meistens CO-OP wie Payday 2 und bevorzugt Stealth :P.",
     "whois-p13" => "Aber noch viel mehr als alles andere LIEBE ich es Musik zu hören. Die Leute fragen mich immer was ich gerne höre. Darauf gibt es actually gar keine Antwort, da ich beinahe alles höre, in Dauerschleife, Tag und Nacht, 24/7, non-stop.",
     "whois-p14" => "Eigentlich gibt es sonst nichts über mich zu sagen. Ich bin halt ein ganz normaler Junge, bis auf den Fakt, dass ich nicht so toxic bin wie viele anderen und nicht 24/7 beleidigen und trollen muss (darauf steh ich nicht, also lasst es lieber bei mir. Ansonsten Bann :P).",
     "whois-p15" => "Mein Alter wird inzwischen durch PHP aktualisiert.",
