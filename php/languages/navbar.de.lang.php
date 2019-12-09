@@ -2,7 +2,6 @@
 $navbar_lang = array(
     "navbar-home" => "Startseite",
     "navbar-info" => "Info",
-    "navbar-featured" => "Featured",
     "navbar-mods" => "Mods",
     "navbar-specs" => "Specs",
     "navbar-whois" => "Wer ist ShuriZma",
