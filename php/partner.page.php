@@ -20,7 +20,19 @@
                 <img src="img/970x250_bestdeals.jpg" alt="Kinguin - Love the Game 970x250" title="Kinguin - Love the Game 970x250" width="970" height="250" />
             </a>
             <br>
-            <script charset="utf-8" type="text/javascript" src="//www.kinguin.net/de/affiliatepluswidget/index/widget/?___store=kinguin_com_de_german&account_id=61973&category_group=bestsellers&is_image=0&is_price=1&is_rated=0&widget_size=728x90"></script><noscript><a href="https://www.kinguin.net/de/?r=61973"><?php echo $lang['partner-1-a1'] ?></a></noscript>
+        </ul>
+        <ul>
+            <a href="javascript:toggle('amazon')">
+                <h4><?php echo $lang['partner-2'] ?><span class="red-link">*</span></h4>
+            </a>
+            <div id="amazon" style="display:none">
+                <p><?php echo $lang['partner-2-p1'] ?></p>
+                <p><?php echo $lang['partner-2-p2'] ?></p>
+                <p><?php echo $lang['partner-2-p3'] ?></p>
+                <p><?php echo $lang['partner-2-p4'] ?></p>
+                <p><?php echo $lang['partner-2-p5'] ?></p>
+            </div>
+            <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=12&l=ez&f=ifr&linkID=6002f113a25cfef3caa09a1edfbb1405&t=shurizma-21&tracking_id=shurizma-21" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
         </ul>
     </ul>
     <p class="hinweis"><span class="red-link">*</span><?php echo $lang['partner-info1'] ?></p>
