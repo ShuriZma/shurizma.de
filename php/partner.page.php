@@ -29,8 +29,6 @@
                 <p><?php echo $lang['partner-2-p1'] ?></p>
                 <p><?php echo $lang['partner-2-p2'] ?></p>
                 <p><?php echo $lang['partner-2-p3'] ?></p>
-                <p><?php echo $lang['partner-2-p4'] ?></p>
-                <p><?php echo $lang['partner-2-p5'] ?></p>
             </div>
             <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=3&p=12&l=ez&f=ifr&linkID=6002f113a25cfef3caa09a1edfbb1405&t=shurizma-21&tracking_id=shurizma-21" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
         </ul>
