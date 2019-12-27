@@ -89,6 +89,18 @@
                         <li><?php echo $lang['specs-screen2-li4'] ?></li>
                     </ul>
                 </div>
+                <a href="javascript:toggle('monitor-3')">
+                    <h5><?php echo $lang['specs-screen3'] ?><span class="red-link">*</span></h5>
+
+                </a>
+                <div id="monitor-3" style="display:none">
+                    <ul>
+                        <li><?php echo $lang['specs-screen3-li1'] ?></li>
+                        <li><?php echo $lang['specs-screen3-li2'] ?></li>
+                        <li><?php echo $lang['specs-screen3-li3'] ?></li>
+                        <li><?php echo $lang['specs-screen3-li4'] ?></li>
+                    </ul>
+                </div>
             </ul>
         </div>
         <a href="javascript:toggle('graphicscard')">
