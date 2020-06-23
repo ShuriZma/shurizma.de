@@ -38,11 +38,11 @@ li a {
     padding: 1em;
 }
 
-#header .header-bg {
-    background: url('../img/shurizma_4096x1024.png') center center no-repeat;
+/*#header .header-bg {
+    background: url('../img/shurizma_header_0001.png') center center no-repeat;
     height: 300px;
     background-size: contain;
-}
+}*/
 
 .logo-wrapper {
     position: relative;
@@ -285,7 +285,6 @@ p .activity-feed {
     font-family: 'PT Sans';
 }
 
-.crew {
-    font-size: 1.2em;
-    font-weight: 600;
-}
+li > span > a{
+    color: red;
+}     

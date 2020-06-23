@@ -13,7 +13,7 @@ $lang = array(
     "whois-ul1" => '<li>At the moment I\'m ' . $age . ' years old</li>
         <li>I live in Berlin</li>
         <li>ShuriZma is not my real name (not everybody knows that)</li>
-        <li>I am too lazy every year to update my age<span class="red-link">*</span></li>',
+        <li>I am too lazy to update my age every year<span class="red-link">*</span></li>',
     "whois-p3" => "As soon as I have clarified the most important things we can go on.",
     "whois-p4" => "At the moment I'm still going to school (hopefully not for long, because I have more fun working), which is why I, like many others, don't have time for the really important things in life until the afternoon.",
     "whois-p5" => "For all of you who now say that this will not change when I go to work. But of course this changes, after all work is one of the important things in life.",
@@ -26,7 +26,7 @@ $lang = array(
     "whois-p12" => "For example, I like to play with buddies (and then stream my non-existent gameplays), mostly co-op like Payday 2 and prefered stealth :P.",
     "whois-p13" => "But even more than anything I LOVE to listen to music. People always ask me what I like to hear. There is actually no answer to that, since I listen to almost everything, in continuous loop, day and night, 24/7, non-stop.",
     "whois-p14" => "Actually, there's nothing else to say about me. I'm just a normal boy, except for the fact that I'm not as toxic as many others and don't have to insult and troll 24/7 (I don't like that, so leave it with me. Otherwise ban :P).",
-    "whois-p15" => "My age is now updated by PHP.",
+    "whois-p15" => "My age is being updated by PHP now.",
     "whois-p16" => "formal languages are programming languages, languages like German and English are called natural languages.",
 );
 ?>
