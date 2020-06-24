@@ -28,7 +28,8 @@
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-font'] ?></a>
             <ul>
-                <select id="selecth1FontFamily">
+                <select id="selectFontFamily">
+                    <option>Select</option>
                     <option value="Comic Sans MS">Comic Sans MS</option>
                     <option value="Georgia">Georgia</option>
                     <option value="Times New Roman">Times New Roman</option>
@@ -40,18 +41,18 @@
                     <option value="Verdana">Verdana</option>
                     <option value="Courier New">Courier New</option>
                     <option value="Lucida Console">Lucida Console</option>
-                    <option value="PT Sans">PT Sans</option>>
+                    <option value="PT Sans">PT Sans</option>
                 </select>
 
                 <script>
-                    var selector = document.getElementById('selecth1FontFamily');
+                    var selector = document.getElementById('selectFontFamily');
                     var asd = document.getElementById('edit');
 
                     if (localStorage.length != 0) {
                         asd.style.fontFamily = localStorage.font;
                         asd.value = localStorage.font;
                     } else {
-                        localStorage.setItem('font', '');
+                        localStorage.setItem('font', 'PT Sans');
                     }
 
 
