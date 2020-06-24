@@ -48,7 +48,7 @@
                     var selector = document.getElementById('selectFontFamily');
                     var asd = document.getElementById('edit');
 
-                    if (localStorage.length != 0) {
+                    if !("font" in localStorage) {
                         asd.style.fontFamily = localStorage.font;
                         asd.value = localStorage.font;
                     } else {

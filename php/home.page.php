@@ -24,10 +24,6 @@
                 <p><?php echo $lang['home-übersicht-info-p1'] ?></p>
                 <ul class="no-dots-ul">
                     <li>
-                        <h4><a class="no-text-transform" href="?f=featured&lang=<?php echo $_SESSION['lang'] ?>"><?php echo $lang['home-übersicht-info-featured'] ?></a></h4>
-                        <p><?php echo $lang['home-übersicht-info-featured-p1'] ?></p>
-                    </li>
-                    <li>
                         <h4><a class="no-text-transform" href="?f=mods&lang=<?php echo $_SESSION['lang'] ?> "><?php echo $lang['home-übersicht-info-mods'] ?></a></h4>
                         <p><?php echo $lang['home-übersicht-info-mods-p1'] ?></p>
                     </li>
