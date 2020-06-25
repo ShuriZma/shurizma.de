@@ -1,34 +1,40 @@
 <nav class="nav-wrapper bg-white">
 
     <ul>
-        <li><a href="?f=home&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-home'] ?></a></li>
+        <li><a href="?f=home&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-home'] ?></a></li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-info'] ?></a>
             <ul>
-                <li><a class="no-text-transform" href="?f=mods&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $navbar_lang['navbar-mods'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=partner&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-partner'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=specs&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $navbar_lang['navbar-specs'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=streaming-info&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-stream'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=wer-ist-shurizma&lang=<?php echo $_SESSION['lang'] ?> "><span class="a-index fas"></span><?php echo $navbar_lang['navbar-whois'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=mods&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-mods'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=partner&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-partner'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=specs&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-specs'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=streaming-info&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-stream'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=wer-ist-shurizma&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-whois'] ?></a></li>
             </ul>
         </li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-games'] ?></a>
             <ul>
-                <li><a class="no-text-transform" href="?f=payday&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-payday'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=payday&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-payday'] ?></a></li>
             </ul>
         </li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-gallery'] ?></a>
             <ul>
-                <li><a class="no-text-transform" href="?f=gta-gallery&lang=<?php echo $_SESSION['lang'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-gta'] ?></a></li>
+                <li><a class="no-text-transform" href="?f=gta-gallery&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-gta'] ?></a></li>
             </ul>
         </li>
         <li><a href="https://forum.shurizma.de"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-forum'] ?></a></li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-font'] ?></a>
             <ul>
-                <select id="selectFontFamily">
+                <form>
+                    <input type="hidden" name="f" id="f" value="<?php if (isset($_GET['f'])) {echo $_GET['f'];}else{echo 'home';} ?>">
+                    <input type="hidden" name="lang" id="lang" value="<?php echo $_SESSION['lang'] ?>">
+                    <input type="text" name="font" id="font">
+                    <input type="submit" value="Submit">
+                </form>
+                <!--<select id="selectFontFamily">
                     <option>Select</option>
                     <option value="Comic Sans MS">Comic Sans MS</option>
                     <option value="Georgia">Georgia</option>
@@ -62,7 +68,7 @@
                         localStorage.font = family;
                     }
 
-                </script>
+                </script>-->
             </ul>
         </li>
         <?php
@@ -75,10 +81,16 @@
 
                 if (isset($_GET['f'])) {
                     echo 'f=' . $_GET['f'] . '&';
-                } else
+                } else {
                     echo 'f=home&';
+                }
+                echo 'lang=en';
 
-                echo 'lang=en"><img src="img/lang/en_flagge.svg.png" /></a></li>
+                if (isset($_GET['font'])) {
+                    echo '&font=' . $_GET['font'];
+                }
+
+                echo '"><img src="img/lang/en_flagge.svg.png" /></a></li>
                         </ul>
                     </li>';
         } else if ( $_SESSION['lang'] == "en" ) {
@@ -90,10 +102,17 @@
 
                 if (isset($_GET['f'])) {
                     echo 'f=' . $_GET['f'] . '&';
-                } else
+                } else {
                     echo 'f=home&';
+                }
 
-                            echo 'lang=de"><img src="img/lang/de_flagge.png" /></a></li>
+               echo 'lang=de';
+
+               if (isset($_GET['font'])) {
+                   echo '&font=' . $_GET['font'];
+               }
+
+               echo '"><img src="img/lang/de_flagge.png" /></a></li>
                         </ul>
                     </li>';
         }

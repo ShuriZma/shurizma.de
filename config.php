@@ -15,6 +15,15 @@ if ( isset($_GET['lang']) ) {
 } else {
     $_SESSION['lang'] = "de";
 }
+if ( isset($_GET['font']) ) {
+    if ( ($_GET['font']) != NULL ) {
+            $_SESSION['font'] = $_GET['font'];
+    } else {
+        $_SESSION['font'] = "PT Sans";
+    }
+} else {
+    $_SESSION['font'] = "PT Sans";
+}
 if (isset($_GET['f'])) {
                     require_once "php/languages/". $_GET['f'] . '.' . $_SESSION['lang'] . ".lang.php";
                 } else

@@ -7,7 +7,7 @@
         <?php require('php/templates/head.php'); ?>
     </head>
 
-    <body id="edit">
+    <body id="edit" style="font-family: <?php echo $_SESSION['font'] ?>;">
         <div class="wrapper">
 
 			<?php require('php/templates/header.php'); ?>
