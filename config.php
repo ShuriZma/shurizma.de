@@ -1,35 +1,62 @@
 <?php
-session_start();
+/* Sprache mit Cookies */
+if ( isset($_COOKIE['lang']) ) {
+    if ( ($_COOKIE['lang']) == NULL ) {
+        setcookie('lang', 'de');
+    }
+} else {
+    setcookie('lang', 'de');
+}
 
-if ( isset($_GET['lang']) ) {
-    if ( ($_GET['lang']) != NULL ) {
-        if ($_GET['lang'] == "de")
-            $_SESSION['lang'] = "de";
-        else if ($_GET['lang'] == "en")
-            $_SESSION['lang'] = "en";
-        else
-            $_SESSION['lang'] = "de";
-    } else {
-        $_SESSION['lang'] = "de";
+/* Font mit Cookies */
+if ( isset($_COOKIE['font']) ) {
+    if ( ($_COOKIE['font']) == NULL ) {
+        setcookie('font', 'PT Sans');
     }
 } else {
-    $_SESSION['lang'] = "de";
+    setcookie('font', 'PT Sans');
 }
-if ( isset($_GET['font']) ) {
-    if ( ($_GET['font']) != NULL ) {
-            $_SESSION['font'] = $_GET['font'];
+
+if (isset($_GET['page'])) {
+    if ( isset($_COOKIE['lang']) ) {
+        if ( ($_COOKIE['lang']) == NULL ) {
+            require_once 'php/languages/'. $_GET['page'] . '.de.lang.php';
+        }
+        else {
+            require_once "php/languages/". $_GET['page'] . '.' . $_COOKIE['lang'] . ".lang.php";
+        }
     } else {
-        $_SESSION['font'] = "PT Sans";
+        require_once 'php/languages/'. $_GET['page'] . '.de.lang.php';
+    }                
+} else
+if ( isset($_COOKIE['lang']) ) {
+    if ( ($_COOKIE['lang']) == NULL ) {
+        require_once 'php/languages/home.de.lang.php';
+    }
+    else {
+        require_once 'php/languages/home.' . $_COOKIE['lang'] . '.lang.php';
     }
 } else {
-    $_SESSION['font'] = "PT Sans";
+    require_once 'php/languages/home.de.lang.php';
 }
-if (isset($_GET['f'])) {
-                    require_once "php/languages/". $_GET['f'] . '.' . $_SESSION['lang'] . ".lang.php";
-                } else
-                    require_once "php/languages/home." . $_SESSION['lang'] . ".lang.php";
-require_once "php/languages/head." . $_SESSION['lang'] . ".lang.php";
-require_once "php/languages/header." . $_SESSION['lang'] . ".lang.php";
-require_once "php/languages/navbar." . $_SESSION['lang'] . ".lang.php";
-require_once "php/languages/footer." . $_SESSION['lang'] . ".lang.php";
+
+if ( isset($_COOKIE['lang']) ) {
+    if ( ($_COOKIE['lang']) == NULL ) {
+        require_once 'php/languages/head.de.lang.php';
+        require_once 'php/languages/header.de.lang.php';
+        require_once 'php/languages/navbar.de.lang.php';
+        require_once 'php/languages/footer.de.lang.php';
+    }
+    else {
+        require_once 'php/languages/head.' . $_COOKIE['lang'] . '.lang.php';
+        require_once 'php/languages/header.' . $_COOKIE['lang'] . '.lang.php';
+        require_once 'php/languages/navbar.' . $_COOKIE['lang'] . '.lang.php';
+        require_once 'php/languages/footer.' . $_COOKIE['lang'] . '.lang.php';
+    }
+} else {
+    require_once 'php/languages/head.de.lang.php';
+    require_once 'php/languages/header.de.lang.php';
+    require_once 'php/languages/navbar.de.lang.php';
+    require_once 'php/languages/footer.de.lang.php';
+}
 ?>

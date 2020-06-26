@@ -27,9 +27,9 @@
         <div id="cpu-prozessor" style="display:none">
             <ul>
                 <ul>
-                    <li><span class="red-link"><a href="https://amzn.to/2JPd8oR"><?php echo $lang['specs-cpu-li1'] ?></a></span></li>
+                    <li><?php echo $lang['specs-cpu-li1'] ?></li>
                     <li><?php echo $lang['specs-cpu-li2'] ?></li>
-                    <li><span class="red-link"><a href="https://amzn.to/3aRe5Jw"><?php echo $lang['specs-cpu-li3'] ?></a></span></li>
+                    <li><?php echo $lang['specs-cpu-li3'] ?></li>
                 </ul>
             </ul>
         </div>
@@ -41,7 +41,7 @@
         <div id="arbeitsspeicher" style="display:none">
             <ul>
                 <ul>
-                    <li><span class="red-link"><a href="https://amzn.to/34lXF9p"><?php echo $lang['specs-ram-li1'] ?></a></span></li>
+                    <li><?php echo $lang['specs-ram-li1'] ?></li>
                     <li><?php echo $lang['specs-ram-li2'] ?></li>
                 </ul>
             </ul>
@@ -54,7 +54,7 @@
         <div id="motherboard" style="display:none">
             <ul>
                 <ul>
-                    <li><span class="red-link"><a href="https://amzn.to/3dZ1DZT"><?php echo $lang['specs-mb-li1'] ?></a></span></li>
+                    <li><?php echo $lang['specs-mb-li1'] ?></li>
                 </ul>
             </ul>
         </div>
@@ -71,7 +71,7 @@
                 </a>
                 <div id="monitor-1" style="display:none">
                     <ul>
-                        <li><span class="red-link"><a href="https://amzn.to/2yFss5l"><?php echo $lang['specs-screen1-li1'] ?></a></span></li>
+                        <li><?php echo $lang['specs-screen1-li1'] ?></li>
                         <li><?php echo $lang['specs-screen1-li2'] ?></li>
                         <li><?php echo $lang['specs-screen1-li3'] ?></li>
                         <li><?php echo $lang['specs-screen1-li4'] ?></li>
@@ -84,7 +84,7 @@
                 </a>
                 <div id="monitor-2" style="display:none">
                     <ul>
-                        <li><span class="red-link"><a href="https://amzn.to/3dZkEeW"><?php echo $lang['specs-screen2-li1'] ?></a></span></li>
+                        <li><?php echo $lang['specs-screen2-li1'] ?></li>
                         <li><?php echo $lang['specs-screen2-li2'] ?></li>
                         <li><?php echo $lang['specs-screen2-li3'] ?></li>
                         <li><?php echo $lang['specs-screen2-li4'] ?></li>
@@ -96,7 +96,7 @@
                 </a>
                 <div id="monitor-3" style="display:none">
                     <ul>
-                        <li><span class="red-link"><a href="https://amzn.to/2x07uxI"><?php echo $lang['specs-screen3-li1'] ?></a></span></li>
+                        <li><?php echo $lang['specs-screen3-li1'] ?></li>
                         <li><?php echo $lang['specs-screen3-li2'] ?></li>
                         <li><?php echo $lang['specs-screen3-li3'] ?></li>
                         <li><?php echo $lang['specs-screen3-li4'] ?></li>
@@ -111,7 +111,7 @@
         <div id="graphicscard" style="display:none">
             <ul>
                 <ul>
-                    <li><span class="red-link"><a href="https://amzn.to/2JJSK8J"><?php echo $lang['specs-gpu-li1'] ?></a></span></li>
+                    <li><?php echo $lang['specs-gpu-li1'] ?></li>
                     <li><?php echo $lang['specs-gpu-li2'] ?></li>
                     <li><?php echo $lang['specs-gpu-li3'] ?></li>
                 </ul>
@@ -143,7 +143,7 @@
                 </a>
                 <div id="festplatte-2" style="display:none">
                     <ul>
-                        <li><span class="red-link"><a href="https://amzn.to/34g9FJu"><?php echo $lang['specs-speicher2-li1'] ?></a></span></li>
+                        <li><?php echo $lang['specs-speicher2-li1'] ?></li>
                         <li><?php echo $lang['specs-speicher2-li2'] ?></li>
                         <li><?php echo $lang['specs-speicher2-li3'] ?></li>
                         <li><?php echo $lang['specs-speicher2-li4'] ?></li>
@@ -170,10 +170,23 @@
                 </a>
                 <div id="festplatte-4" style="display:none">
                     <ul>
-                        <li><span class="red-link"><a href="https://amzn.to/2yxaNN0"><?php echo $lang['specs-speicher4-li1'] ?></a></span></li>
+                        <li><?php echo $lang['specs-speicher4-li1'] ?></li>
                         <li><?php echo $lang['specs-speicher4-li2'] ?></li>
                         <li><?php echo $lang['specs-speicher4-li3'] ?></li>
                         <li><?php echo $lang['specs-speicher4-li4'] ?></li>
+                    </ul>
+                </div>
+
+                <a href="javascript:toggle('festplatte-5')">
+                    <h5><?php echo $lang['specs-speicher5'] ?><span class="red-link">*</span></h5>
+
+                </a>
+                <div id="festplatte-5" style="display:none">
+                    <ul>
+                        <li><?php echo $lang['specs-speicher5-li1'] ?></li>
+                        <li><?php echo $lang['specs-speicher5-li2'] ?></li>
+                        <li><?php echo $lang['specs-speicher5-li3'] ?></li>
+                        <li><?php echo $lang['specs-speicher5-li4'] ?></li>
                     </ul>
                 </div>
             </ul>
@@ -186,8 +199,8 @@
         <div id="headset-micro" style="display:none">
             <ul>
                 <ul>
-                    <li><span class="red-link"><a href="https://amzn.to/2xVD6o0"><?php echo $lang['specs-kopfhoerer-li1'] ?></a></span></li>
-                    <li><span class="red-link"><a href="https://m.thomann.de/de/the_t.bone_sc_420_usb_desktop_set.htm"><?php echo $lang['specs-mikro-li1'] ?></a></span></li>
+                    <li><?php echo $lang['specs-kopfhoerer-li1'] ?></li>
+                    <li><?php echo $lang['specs-mikro-li1'] ?></li>
                 </ul>
             </ul>
         </div>
@@ -199,8 +212,8 @@
         <div id="keyboard-mouse" style="display:none">
             <ul>
                 <ul>
-                    <li><span class="red-link"><a href="https://de.roccat.org/Keyboards/Vulcan-121-AIMO"><?php echo $lang['specs-keyboard-li1'] ?></a></span></li>
-                    <li><span class="red-link"><a href="https://de.roccat.org/Mice/Kone-AIMO-Remastered"><?php echo $lang['specs-keyboard-li2'] ?></a></span></li>
+                    <li><?php echo $lang['specs-keyboard-li1'] ?></li>
+                    <li><?php echo $lang['specs-keyboard-li2'] ?></li>
                 </ul>
             </ul>
         </div>
@@ -212,10 +225,10 @@
         <div id="other-speccs" style="display:none">
             <ul>
                 <ul>
-                    <li><span class="red-link"><a href="https://amzn.to/39Myi1y"><?php echo $lang['specs-others-li1'] ?></a></span></li>
+                    <li><?php echo $lang['specs-others-li1'] ?></li>
                     <li><?php echo $lang['specs-others-li2'] ?></li>
                     <li><?php echo $lang['specs-others-li3'] ?></li>
-                    <li><span class="red-link"><a href="https://amzn.to/2UM7ni1"><?php echo $lang['specs-others-li4'] ?></a></span></li>
+                    <li><?php echo $lang['specs-others-li4'] ?></li>
                 </ul>
             </ul>
         </div>

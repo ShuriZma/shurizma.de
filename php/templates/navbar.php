@@ -1,118 +1,69 @@
 <nav class="nav-wrapper bg-white">
 
     <ul>
-        <li><a href="?f=home&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-home'] ?></a></li>
+        <li><a href="?page=home"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-home'] ?></a></li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-info'] ?></a>
             <ul>
-                <li><a class="no-text-transform" href="?f=mods&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-mods'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=partner&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-partner'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=specs&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-specs'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=streaming-info&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-stream'] ?></a></li>
-                <li><a class="no-text-transform" href="?f=wer-ist-shurizma&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-whois'] ?></a></li>
+                <li><a class="no-text-transform" href="?page=mods"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-mods'] ?></a></li>
+                <li><a class="no-text-transform" href="?page=partner"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-partner'] ?></a></li>
+                <li><a class="no-text-transform" href="?page=specs"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-specs'] ?></a></li>
+                <li><a class="no-text-transform" href="?page=streaming-info"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-stream'] ?></a></li>
+                <li><a class="no-text-transform" href="?page=wer-ist-shurizma"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-whois'] ?></a></li>
             </ul>
         </li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-games'] ?></a>
             <ul>
-                <li><a class="no-text-transform" href="?f=payday&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-payday'] ?></a></li>
+                <li><a class="no-text-transform" href="?page=payday"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-payday'] ?></a></li>
             </ul>
         </li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-gallery'] ?></a>
             <ul>
-                <li><a class="no-text-transform" href="?f=gta-gallery&lang=<?php echo $_SESSION['lang'] ?>&font=<?php echo $_SESSION['font'] ?>"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-gta'] ?></a></li>
+                <li><a class="no-text-transform" href="?page=gta-gallery"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-gta'] ?></a></li>
             </ul>
         </li>
         <li><a href="https://forum.shurizma.de"><span class="a-index fas"></span><?php echo $navbar_lang['navbar-forum'] ?></a></li>
         <li>
             <a><span class="a-index fas"></span><?php echo $navbar_lang['navbar-font'] ?></a>
             <ul>
-                <form>
-                    <input type="hidden" name="f" id="f" value="<?php if (isset($_GET['f'])) {echo $_GET['f'];}else{echo 'home';} ?>">
-                    <input type="hidden" name="lang" id="lang" value="<?php echo $_SESSION['lang'] ?>">
+                <form method="post">
+                    <input type="hidden" name="page" id="page" value="<?php if (isset($_GET['page'])) {echo $_GET['page'];}else{echo 'home';} ?>">
                     <input type="text" name="font" id="font">
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" onclick="Cookies.set('font', form.font.value);">
                 </form>
-                <!--<select id="selectFontFamily">
-                    <option>Select</option>
-                    <option value="Comic Sans MS">Comic Sans MS</option>
-                    <option value="Georgia">Georgia</option>
-                    <option value="Times New Roman">Times New Roman</option>
-                    <option value="Arial">Arial</option>
-                    <option value="Arial Black">Arial Black</option>
-                    <option value="Impact">Impact</option>
-                    <option value="Lucida Sans Unicode">Lucida Sans Unicode</option>
-                    <option value="Tahoma">Tahoma</option>
-                    <option value="Verdana">Verdana</option>
-                    <option value="Courier New">Courier New</option>
-                    <option value="Lucida Console">Lucida Console</option>
-                    <option value="PT Sans">PT Sans</option>
-                </select>
-
-                <script>
-                    var selector = document.getElementById('selectFontFamily');
-                    var asd = document.getElementById('edit');
-
-                    if !("font" in localStorage) {
-                        asd.style.fontFamily = localStorage.font;
-                        asd.value = localStorage.font;
-                    } else {
-                        localStorage.setItem('font', 'PT Sans');
-                    }
-
-
-                    selector.onchange = function() {
-                        var family = this.value;
-                        asd.style.fontFamily = family;
-                        localStorage.font = family;
-                    }
-
-                </script>-->
             </ul>
         </li>
         <?php
-        if ( $_SESSION['lang'] == "de" ) {
+        if ( $_COOKIE['lang'] == "de" ) {
             echo '<li>
                         <a class="a-index fas"><img src="img/lang/de_flagge.png" /></a>
 
                         <ul>
-                            <li><a class="a-index fas" href="?';
+                            <li><a class="a-index fas" onclick="Cookies.set(\'lang\', \'en\');" href="?page=';
 
-                if (isset($_GET['f'])) {
-                    echo 'f=' . $_GET['f'] . '&';
+                if (isset($_GET['page'])) {
+                    echo $_GET['page'];
                 } else {
-                    echo 'f=home&';
+                    echo 'home';
                 }
-                echo 'lang=en';
-
-                if (isset($_GET['font'])) {
-                    echo '&font=' . $_GET['font'];
-                }
-
                 echo '"><img src="img/lang/en_flagge.svg.png" /></a></li>
                         </ul>
                     </li>';
-        } else if ( $_SESSION['lang'] == "en" ) {
+        } else if ( $_COOKIE['lang'] == "en" ) {
             echo '<li>
                         <a class="a-index fas"><img src="img/lang/en_flagge.svg.png" /></a>
 
                         <ul>
-                            <li><a class="a-index fas" href="?';
+                            <li><a class="a-index fas" onclick="Cookies.set(\'lang\', \'de\');" href="?page=';
 
-                if (isset($_GET['f'])) {
-                    echo 'f=' . $_GET['f'] . '&';
+                if (isset($_GET['page'])) {
+                    echo $_GET['page'];
                 } else {
-                    echo 'f=home&';
+                    echo 'home';
                 }
-
-               echo 'lang=de';
-
-               if (isset($_GET['font'])) {
-                   echo '&font=' . $_GET['font'];
-               }
-
-               echo '"><img src="img/lang/de_flagge.png" /></a></li>
+                echo '"><img src="img/lang/de_flagge.png" /></a></li>
                         </ul>
                     </li>';
         }

@@ -15,7 +15,7 @@ $head_lang = array(
             },
             "position": "top",
             "content": {
-                "href": "?f=datenschutz&lang=' . $_SESSION['lang'] . '"
+                "href": "?page=datenschutz&lang=' . $_COOKIE['lang']  . '&font=' . $_COOKIE['font'] . '"
             }
         })});
 </script>'

@@ -6,7 +6,7 @@
 ?>
 <header id="header" class="bg-white">
     <div class="header-bg" style="background: url('img/<?php echo $selectedBg; ?>') center center no-repeat; height: 300px; background-size: contain;">
-        <a href="?f=home&lang=<?php echo $_SESSION['lang'] ?>">
+        <a href="?page=home">
             <div class="logo-wrapper">
 
                 <img class="logo-img" src="img/shurizma.png">

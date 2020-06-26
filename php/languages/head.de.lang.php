@@ -18,7 +18,7 @@ $head_lang = array(
                 "message": "Diese Website verwendet Cookies, um sicherzustellen, dass du die bestmögliche Erfahrung auf unserer Website machen kannst.",
                 "dismiss": "Verstanden!",
                 "link": "Erfahre mehr",
-                "href": "?f=datenschutz&lang=' . $_SESSION['lang']  . '"
+                "href": "?page=datenschutz&lang=' . $_COOKIE['lang']  . '&font=' . $_COOKIE['font'] . '"
             }
         })});
 </script>'

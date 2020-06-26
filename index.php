@@ -7,7 +7,7 @@
         <?php require('php/templates/head.php'); ?>
     </head>
 
-    <body id="edit" style="font-family: <?php echo $_SESSION['font'] ?>;">
+    <body id="edit" style="font-family: <?php echo $_COOKIE['font'] ?>;">
         <div class="wrapper">
 
 			<?php require('php/templates/header.php'); ?>
@@ -21,7 +21,7 @@
              * Dateien, die immer inkludiert werden müssen, enden auf .inc.php
              * Dateien, die Seiten darstellen, enden auf .page.php
              *
-             * Aufruf einer Unterseite: https://example.org/?f=whatever
+             * Aufruf einer Unterseite: https://example.org/?page=whatever
              *
              * Alle zu inkludierenden Dateien sind im Unterverzeichnis /includes/ gespeichert.
              */
@@ -49,7 +49,7 @@
             $page = 'home'; # Standard
 
             # soll eine bestimmte Seite eingebunden werden?
-            if (array_key_exists('f', $_GET)) {
+            if (array_key_exists('page', $_GET)) {
 
               $page = 'home'; # sollte die geforderte Seite nicht existieren
 
@@ -57,7 +57,7 @@
               foreach (array_keys($pages) as $p) {
 
                 # ist das die gewünschte Datei?
-                if ($p == $_GET['f']) {
+                if ($p == $_GET['page']) {
                   # übernehmen
                   $page = $p;
                 }

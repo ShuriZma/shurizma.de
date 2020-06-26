@@ -6,7 +6,7 @@
     <h3><?php echo $lang['payday-h3-1'] ?></h3>
     <ul>
         <ul>
-            <a class="red-link" href="?f=build_0001&lang=<?php echo $_SESSION['lang'] ?>"><?php echo $lang['payday-build-0001'] ?></a>
+            <a class="red-link" href="?page=build_0001"><?php echo $lang['payday-build-0001'] ?></a>
             <h4><?php echo $lang['payday-build-kurzfassung'] ?></h4>
             <p><?php echo $lang['payday-build-0001-p1'] ?></p>
             <p><?php echo $lang['payday-build-0001-p2'] ?></p>
@@ -15,7 +15,7 @@
         </ul>
         <br>
         <ul>
-            <a class="red-link" href="?f=build_0002&lang=<?php echo $_SESSION['lang'] ?>"><?php echo $lang['payday-build-kurzfassung'] ?></a>
+            <a class="red-link" href="?page=build_0002"><?php echo $lang['payday-build-kurzfassung'] ?></a>
             <h4><?php echo $lang['payday-build-0002-p1'] ?></h4>
             <p><?php echo $lang['payday-build-0002-p1'] ?></p>
             <p><?php echo $lang['payday-build-0002-p2'] ?></p>
