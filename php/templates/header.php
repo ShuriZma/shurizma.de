@@ -5,7 +5,7 @@
   $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
 ?>
 <header id="header" class="bg-white">
-    <div class="header-bg" style="background: url('img/<?php echo $selectedBg; ?>') center center no-repeat; height: 300px; background-size: contain;">
+    <div class="header-bg" style="background: url('img/header/<?php echo $selectedBg; ?>') center center no-repeat; height: 300px; background-size: contain;">
         <a href="?page=home">
             <div class="logo-wrapper">
 

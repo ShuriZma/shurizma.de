@@ -7,6 +7,16 @@
         <br>
         <h4><?php echo $lang['build-mastermind'] ?></h4>
         <ul>
+            <li><?php echo $lang['build-mastermind-medic'] ?>
+                <ul>
+                    <li><?php echo $lang['build-mastermind-medic-skill-1'] ?></li>
+                    <li><?php echo $lang['build-mastermind-medic-skill-2'] ?></li>
+                    <li><?php echo $lang['build-mastermind-medic-skill-3'] ?></li>
+                    <p><?php echo $lang['build-mastermind-medic-skill-3-p'] ?></p>
+                    <li><?php echo $lang['build-mastermind-medic-skill-4'] ?></li>
+                    <p><?php echo $lang['build-mastermind-medic-skill-4-p'] ?></p>
+                </ul>
+            </li>
             <li><?php echo $lang['build-mastermind-controller'] ?>
                 <ul>
                     <li><?php echo $lang['build-mastermind-controller-skill-1'] ?></li>
@@ -23,47 +33,28 @@
                 <h4><?php echo $lang['build-screenshot'] ?><span class="red-link">*</span></h4>
             </a>
             <div id="mastermind" style="display:none">
-                <img src="img/payday/build_0001/mastermind.jpg" width="100%">
+                <img src="img/payday/build_0002/mastermind.jpg" width="100%">
             </div>
         </ul>
         <br>
         <h4><?php echo $lang['build-enforcer'] ?></h4>
         <ul>
-            <li><?php echo $lang['build-enforcer-tank'] ?>
+            <li><?php echo $lang['build-enforcer-ammo-specialist'] ?>
                 <ul>
-                    <li><?php echo $lang['build-enforcer-tank-skill-1'] ?></li>
-                    <p><?php echo $lang['build-enforcer-tank-skill-1-p'] ?></p>
-                    <li><?php echo $lang['build-enforcer-tank-skill-2'] ?></li>
-                    <p><?php echo $lang['build-enforcer-tank-skill-2-p'] ?></p>
+                    <li><?php echo $lang['build-enforcer-ammo-specialist-skill-1'] ?></li>
+                    <p><?php echo $lang['build-enforcer-ammo-specialist-skill-1-p'] ?></p>
                 </ul>
             </li>
             <a href="javascript:toggle('enforcer')">
                 <h4><?php echo $lang['build-screenshot'] ?><span class="red-link">*</span></h4>
             </a>
             <div id="enforcer" style="display:none">
-                <img src="img/payday/build_0001/enforcer.jpg" width="100%">
+                <img src="img/payday/build_0002/enforcer.jpg" width="100%">
             </div>
         </ul>
         <br>
         <h4><?php echo $lang['build-technician'] ?></h4>
         <ul>
-            <li><?php echo $lang['build-technician-engineer'] ?>
-                <ul>
-                    <li><?php echo $lang['build-technician-engineer-skill-1'] ?></li>
-                    <li><?php echo $lang['build-technician-engineer-skill-2'] ?></li>
-                    <p><?php echo $lang['build-technician-engineer-skill-2-p'] ?></p>
-                    <li><?php echo $lang['build-technician-engineer-skill-3'] ?></li>
-                    <p><?php echo $lang['build-technician-engineer-skill-3-p'] ?></p>
-                </ul>
-            </li>
-            <li><?php echo $lang['build-technician-breacher'] ?>
-                <ul>
-                    <li><?php echo $lang['build-technician-breacher-skill-1'] ?></li>
-                    <li><?php echo $lang['build-technician-breacher-skill-2'] ?></li>
-                    <li><?php echo $lang['build-technician-breacher-skill-3'] ?></li>
-                    <p><?php echo $lang['build-technician-breacher-skill-3-p'] ?></p>
-                </ul>
-            </li>
             <li><?php echo $lang['build-technician-oppressor'] ?>
                 <ul>
                     <li><?php echo $lang['build-technician-oppressor-skill-1'] ?></li>
@@ -74,59 +65,39 @@
                 <h4><?php echo $lang['build-screenshot'] ?><span class="red-link">*</span></h4>
             </a>
             <div id="technician" style="display:none">
-                <img src="img/payday/build_0001/technician.jpg" width="100%">
+                <img src="img/payday/build_0002/technician.jpg" width="100%">
             </div>
         </ul>
         <br>
         <h4><?php echo $lang['build-ghost'] ?></h4>
         <ul>
-            <li><?php echo $lang['build-ghost-shinobi'] ?>
+            <li><?php echo $lang['build-ghost-empty'] ?>
                 <ul>
-                    <li><?php echo $lang['build-ghost-shinobi-skill-1'] ?></li>
-                    <p><?php echo $lang['build-ghost-shinobi-skill-1-p'] ?></p>
-                </ul>
-            </li>
-            <li><?php echo $lang['build-ghost-artful'] ?>
-                <ul>
-                    <li><?php echo $lang['build-ghost-artful-skill-1'] ?></li>
-                    <p><?php echo $lang['build-ghost-artful-skill-1-p'] ?></p>
-                    <li><?php echo $lang['build-ghost-artful-skill-2'] ?></li>
-                    <p><?php echo $lang['build-ghost-artful-skill-2-p'] ?></p>
-                </ul>
-            </li>
-            <li><?php echo $lang['build-ghost-silent'] ?>
-                <ul>
-                    <li><?php echo $lang['build-ghost-silent-skill-1'] ?></li>
-                    <p><?php echo $lang['build-ghost-silent-skill-1-p'] ?></p>
-                    <li><?php echo $lang['build-ghost-silent-skill-2'] ?></li>
-                    <li><?php echo $lang['build-ghost-silent-skill-3'] ?></li>
-                    <p><?php echo $lang['build-ghost-silent-skill-3-p'] ?></p>
+                    <li><?php echo $lang['build-ghost-empty-skill-1'] ?></li>
+                    <p><?php echo $lang['build-ghost-empty-skill-1-p'] ?></p>
                 </ul>
             </li>
             <a href="javascript:toggle('ghost')">
                 <h4><?php echo $lang['build-screenshot'] ?><span class="red-link">*</span></h4>
             </a>
             <div id="ghost" style="display:none">
-                <img src="img/payday/build_0001/ghost.jpg" width="100%">
+                <img src="img/payday/build_0002/ghost.jpg" width="100%">
             </div>
         </ul>
         <br>
         <h4><?php echo $lang['build-fugitive'] ?></h4>
         <ul>
-            <li><?php echo $lang['build-fugitive-gunslinger'] ?>
+            <li><?php echo $lang['build-fugitive-brawler'] ?>
                 <ul>
-                    <li><?php echo $lang['build-fugitive-gunslinger-skill-1'] ?></li>
-                    <p><?php echo $lang['build-fugitive-gunslinger-skill-1-p'] ?></p>
-                    <li><?php echo $lang['build-fugitive-gunslinger-skill-2'] ?></li>
-                    <li><?php echo $lang['build-fugitive-gunslinger-skill-3'] ?></li>
-                    <p><?php echo $lang['build-fugitive-gunslinger-skill-3-p'] ?></p>
+                    <li><?php echo $lang['build-fugitive-brawler-skill-1'] ?></li>
+                    <p><?php echo $lang['build-fugitive-brawler-skill-1-p'] ?></p>
                 </ul>
             </li>
             <a href="javascript:toggle('fugitive')">
                 <h4><?php echo $lang['build-screenshot'] ?><span class="red-link">*</span></h4>
             </a>
             <div id="fugitive" style="display:none">
-                <img src="img/payday/build_0001/fugitive.jpg" width="100%">
+                <img src="img/payday/build_0002/fugitive.jpg" width="100%">
             </div>
         </ul>
         <br>
@@ -136,8 +107,6 @@
                 <ul>
                     <li><?php echo $lang['build-waffen-primary-li'] ?></li>
                     <p><?php echo $lang['build-waffen-primary-p1'] ?></p>
-                    <p><?php echo $lang['build-waffen-primary-p2'] ?></p>
-                    <p><?php echo $lang['build-waffen-primary-p3'] ?></p>
                     <ul>
                         <h4><?php echo $lang['build-waffen-primary-mods'] ?></h4>
                         <li><?php echo $lang['build-waffen-primary-mods-1'] ?></li>
@@ -155,9 +124,6 @@
                         <li><?php echo $lang['build-waffen-primary-mods-5'] ?></li>
                         <p><?php echo $lang['build-waffen-primary-mods-5-p1'] ?></p>
                         <p><?php echo $lang['build-waffen-primary-mods-5-p2'] ?></p>
-                        <li><?php echo $lang['build-waffen-primary-mods-6'] ?></li>
-                        <p><?php echo $lang['build-waffen-primary-mods-6-p1'] ?></p>
-                        <p><?php echo $lang['build-waffen-primary-mods-6-p2'] ?></p>
                     </ul>
                     <br>
                     <p><?php echo $lang['build-waffen-primary-info'] ?></p>
@@ -171,8 +137,24 @@
                     <p><?php echo $lang['build-waffen-secondary-p2'] ?></p>
                     <ul>
                         <h4><?php echo $lang['build-waffen-secondary-mods'] ?></h4>
-                        <p><?php echo $lang['build-waffen-secondary-mods-p1'] ?></p>
-                        <p><?php echo $lang['build-waffen-secondary-mods-p2'] ?></p>
+                        <li><?php echo $lang['build-waffen-secondary-mods-1'] ?></li>
+                        <p><?php echo $lang['build-waffen-secondary-mods-1-p1'] ?></p>
+                        <p><?php echo $lang['build-waffen-secondary-mods-1-p2'] ?></p>
+                        <li><?php echo $lang['build-waffen-secondary-mods-2'] ?></li>
+                        <p><?php echo $lang['build-waffen-secondary-mods-2-p1'] ?></p>
+                        <p><?php echo $lang['build-waffen-secondary-mods-2-p2'] ?></p>
+                        <li><?php echo $lang['build-waffen-secondary-mods-3'] ?></li>
+                        <p><?php echo $lang['build-waffen-secondary-mods-3-p1'] ?></p>
+                        <p><?php echo $lang['build-waffen-secondary-mods-3-p2'] ?></p>
+                        <li><?php echo $lang['build-waffen-secondary-mods-4'] ?></li>
+                        <p><?php echo $lang['build-waffen-secondary-mods-4-p1'] ?></p>
+                        <p><?php echo $lang['build-waffen-secondary-mods-4-p2'] ?></p>
+                        <li><?php echo $lang['build-waffen-secondary-mods-5'] ?></li>
+                        <p><?php echo $lang['build-waffen-secondary-mods-5-p1'] ?></p>
+                        <p><?php echo $lang['build-waffen-secondary-mods-5-p2'] ?></p>
+                        <li><?php echo $lang['build-waffen-secondary-mods-6'] ?></li>
+                        <p><?php echo $lang['build-waffen-secondary-mods-6-p1'] ?></p>
+                        <p><?php echo $lang['build-waffen-secondary-mods-6-p2'] ?></p>
                     </ul>
                 </ul>
             </li>
@@ -189,8 +171,6 @@
                 <ul>
                     <li><?php echo $lang['build-waffen-throw-li'] ?></li>
                     <p><?php echo $lang['build-waffen-throw-p1'] ?></p>
-                    <p><?php echo $lang['build-waffen-throw-p2'] ?></p>
-                    <p><?php echo $lang['build-waffen-throw-p3'] ?></p>
                 </ul>
             </li>
         </ul>
@@ -201,9 +181,6 @@
                     <li><?php echo $lang['build-others-stuff-primary'] ?></li>
                     <p><?php echo $lang['build-others-stuff-primary-p1'] ?></p>
                     <p><?php echo $lang['build-others-stuff-primary-p2'] ?></p>
-                    <li><?php echo $lang['build-others-stuff-secondary'] ?></li>
-                    <p><?php echo $lang['build-others-stuff-secondary-p1'] ?></p>
-                    <p><?php echo $lang['build-others-stuff-secondary-p2'] ?></p>
                 </ul>
             </li>
             <br>
@@ -217,7 +194,7 @@
                 <h4><?php echo $lang['build-screenshot'] ?><span class="red-link">*</span></h4>
             </a>
             <div id="inventory" style="display:none">
-                <img src="img/payday/build_0001/inventory.jpg" width="100%">
+                <img src="img/payday/build_0002/inventory.jpg" width="100%">
             </div>
         </ul>
     </div>

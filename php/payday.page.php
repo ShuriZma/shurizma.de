@@ -15,7 +15,7 @@
         </ul>
         <br>
         <ul>
-            <a class="red-link" href="?page=build_0002"><?php echo $lang['payday-build-kurzfassung'] ?></a>
+            <a class="red-link" href="?page=build_0002"><?php echo $lang['payday-build-0002'] ?></a>
             <h4><?php echo $lang['payday-build-0002-p1'] ?></h4>
             <p><?php echo $lang['payday-build-0002-p1'] ?></p>
             <p><?php echo $lang['payday-build-0002-p2'] ?></p>
