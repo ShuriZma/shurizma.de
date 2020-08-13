@@ -21,5 +21,6 @@ $head_lang = array(
                 "href": "?page=datenschutz&lang=' . $_COOKIE['lang']  . '&font=' . $_COOKIE['font'] . '"
             }
         })});
-</script>'
+    </script>',
+    "head-description" => "Hier findest du ein paar Infos zu ShuriZma, auch wenn sie dich gar nicht interessieren.",
 );

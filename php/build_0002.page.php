@@ -3,9 +3,61 @@
 </head>
 <div id="content" class="bg-white">
     <h1><?php echo $lang['build-title'] ?></h1>
+    <ul class="content-list">
+        <li class="no-dots-ul">
+            <a href="javascript:toggle('content-list')">
+                <h4><?php echo $lang['build-content-list'] ?></h4>
+            </a>
+        </li>
+        <div id="content-list" style="display:none">
+            <li>
+                <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-mastermind"><?php echo $lang['build-mastermind'] ?></a></p>
+            </li>
+            <li>
+                <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-enforcer"><?php echo $lang['build-enforcer'] ?></a></p>
+            </li>
+            <li>
+                <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-technician"><?php echo $lang['build-technician'] ?></a></p>
+            </li>
+            <li>
+                <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-ghost"><?php echo $lang['build-ghost'] ?></a></p>
+            </li>
+            <li>
+                <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-fugitive"><?php echo $lang['build-fugitive'] ?></a></p>
+            </li>
+            <li>
+                <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-waffen"><?php echo $lang['build-waffen'] ?></a></p>
+                <ul>
+                    <li>
+                        <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-waffen-primary"><?php echo $lang['build-waffen-primary'] ?></a></p>
+                    </li>
+                    <li>
+                        <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-waffen-secondary"><?php echo $lang['build-waffen-secondary'] ?></a></p>
+                    </li>
+                    <li>
+                        <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-waffen-melee"><?php echo $lang['build-waffen-melee'] ?></a></p>
+                    </li>
+                    <li>
+                        <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-waffen-throw"><?php echo $lang['build-waffen-throw'] ?></a></p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-others"><?php echo $lang['build-others'] ?></a></p>
+                <ul>
+                    <li>
+                        <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-others-stuff"><?php echo $lang['build-others-stuff'] ?></a></p>
+                    </li>
+                    <li>
+                        <p><a class="content-list-a-no-fckin-shit-css-stop-fckin-around-with-me" href="#anchor-perk"><?php echo $lang['build-perk'] ?></a></p>
+                    </li>
+                </ul>
+            </li>
+        </div>
+    </ul>
     <div class="activity-feed">
         <br>
-        <h4><?php echo $lang['build-mastermind'] ?></h4>
+        <h4 id="anchor-mastermind"><?php echo $lang['build-mastermind'] ?></h4>
         <ul>
             <li><?php echo $lang['build-mastermind-medic'] ?>
                 <ul>
@@ -37,7 +89,7 @@
             </div>
         </ul>
         <br>
-        <h4><?php echo $lang['build-enforcer'] ?></h4>
+        <h4 id="anchor-enforcer"><?php echo $lang['build-enforcer'] ?></h4>
         <ul>
             <li><?php echo $lang['build-enforcer-ammo-specialist'] ?>
                 <ul>
@@ -53,7 +105,7 @@
             </div>
         </ul>
         <br>
-        <h4><?php echo $lang['build-technician'] ?></h4>
+        <h4 id="anchor-technician"><?php echo $lang['build-technician'] ?></h4>
         <ul>
             <li><?php echo $lang['build-technician-oppressor'] ?>
                 <ul>
@@ -69,7 +121,7 @@
             </div>
         </ul>
         <br>
-        <h4><?php echo $lang['build-ghost'] ?></h4>
+        <h4 id="anchor-ghost"><?php echo $lang['build-ghost'] ?></h4>
         <ul>
             <li><?php echo $lang['build-ghost-empty'] ?>
                 <ul>
@@ -85,7 +137,7 @@
             </div>
         </ul>
         <br>
-        <h4><?php echo $lang['build-fugitive'] ?></h4>
+        <h4 id="anchor-fugitive"><?php echo $lang['build-fugitive'] ?></h4>
         <ul>
             <li><?php echo $lang['build-fugitive-brawler'] ?>
                 <ul>
@@ -101,9 +153,9 @@
             </div>
         </ul>
         <br>
-        <h4><?php echo $lang['build-waffen'] ?></h4>
+        <h4 id="anchor-waffen"><?php echo $lang['build-waffen'] ?></h4>
         <ul>
-            <li><?php echo $lang['build-waffen-primary'] ?>
+            <li id="anchor-waffen-primary"><?php echo $lang['build-waffen-primary'] ?>
                 <ul>
                     <li><?php echo $lang['build-waffen-primary-li'] ?></li>
                     <p><?php echo $lang['build-waffen-primary-p1'] ?></p>
@@ -130,7 +182,7 @@
                 </ul>
             </li>
             <br>
-            <li><?php echo $lang['build-waffen-secondary'] ?>
+            <li id="anchor-waffen-secondary"><?php echo $lang['build-waffen-secondary'] ?>
                 <ul>
                     <li><?php echo $lang['build-waffen-secondary-li'] ?></li>
                     <p><?php echo $lang['build-waffen-secondary-p1'] ?></p>
@@ -159,7 +211,7 @@
                 </ul>
             </li>
             <br>
-            <li><?php echo $lang['build-waffen-melee'] ?>
+            <li id="anchor-waffen-melee"><?php echo $lang['build-waffen-melee'] ?>
                 <ul>
                     <li><?php echo $lang['build-waffen-melee-li'] ?></li>
                     <p><?php echo $lang['build-waffen-melee-p1'] ?></p>
@@ -167,16 +219,16 @@
                 </ul>
             </li>
             <br>
-            <li><?php echo $lang['build-waffen-throw'] ?>
+            <li id="anchor-waffen-throw"><?php echo $lang['build-waffen-throw'] ?>
                 <ul>
                     <li><?php echo $lang['build-waffen-throw-li'] ?></li>
                     <p><?php echo $lang['build-waffen-throw-p1'] ?></p>
                 </ul>
             </li>
         </ul>
-        <h4><?php echo $lang['build-others'] ?></h4>
+        <h4 id="anchor-others"><?php echo $lang['build-others'] ?></h4>
         <ul>
-            <li><?php echo $lang['build-others-stuff'] ?>
+            <li id="anchor-others-stuff"><?php echo $lang['build-others-stuff'] ?>
                 <ul>
                     <li><?php echo $lang['build-others-stuff-primary'] ?></li>
                     <p><?php echo $lang['build-others-stuff-primary-p1'] ?></p>
@@ -184,7 +236,7 @@
                 </ul>
             </li>
             <br>
-            <li><?php echo $lang['build-perk'] ?>
+            <li id="anchor-perk"><?php echo $lang['build-perk'] ?>
                 <ul>
                     <li><?php echo $lang['build-perk-li'] ?></li>
                     <p><?php echo $lang['build-perk-p1'] ?></p>

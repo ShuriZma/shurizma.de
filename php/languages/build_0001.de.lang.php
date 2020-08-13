@@ -1,6 +1,7 @@
 <?php
 $lang = array(
     "build" => "ShuriZma: Akimbo Burglar",
+    "build-content-list" => "Inhaltsverzeichnis",
     "build-screenshot" => "Screenshot",
     "build-title" => "Akimbo Burglar",
     "build-mastermind" => "Mastermind",

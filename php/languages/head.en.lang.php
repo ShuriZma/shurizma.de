@@ -18,5 +18,6 @@ $head_lang = array(
                 "href": "?page=datenschutz&lang=' . $_COOKIE['lang']  . '&font=' . $_COOKIE['font'] . '"
             }
         })});
-</script>'
+    </script>',
+    "head-description" => "Here you can find some information about ShuriZma, even if you are not interested at all.",
 );

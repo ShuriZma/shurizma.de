@@ -21,8 +21,11 @@
 <link rel="stylesheet" type="text/css"  href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <?php echo $head_lang['cookie-consent'] ?>
-<script type="module" src="/js/js.cookie.js"></script>
+<script type="module" src="js/js.cookie.js"></script>
 <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css">
+<meta name="description" content="<?php echo $head_lang['head-description'] ?>" />
+<meta name="twitter:image" content="/img/shurizma.png" />
+<meta property="og:image" content="/img/shurizma.png" />

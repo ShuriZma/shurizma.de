@@ -1,6 +1,7 @@
 <?php
 $lang = array(
     "build" => "ShuriZma: Sniper Stoic",
+    "build-content-list" => "Index",
     "build-screenshot" => "Screenshot",
     "build-title" => "Sniper Stoic",
     "build-mastermind" => "Mastermind",

@@ -15,6 +15,27 @@ li a {
     font-size: 90%;
 }
 
+.content-list {
+    border: 1px solid black;
+    width: 250px;
+}
+
+.content-list > li > p {
+    padding-left: 20px;
+}
+
+.content-list-a-no-fckin-shit-css-stop-fckin-around-with-me {
+    font-weight: 100;
+    text-transform: none;
+    color: rgb(255, 0, 0);
+}
+
+.content-list h4 {
+    text-align: center;
+    margin: 0;
+    padding-right: 40px;
+}
+
 .no-text-transform {
     text-transform: none;
 }
