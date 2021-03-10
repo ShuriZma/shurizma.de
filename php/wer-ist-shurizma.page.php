@@ -23,6 +23,7 @@
     <p><?php echo $lang['whois-p13'] ?></p>
     <p><?php echo $lang['whois-p14'] ?></p>
     <br>
-    <p class="hinweis"><span class="red-link">*</span><?php echo $lang['whois-p15'] ?></p>
-    <p class="hinweis"><span class="red-link">**</span><?php echo $lang['whois-p16'] ?></p>
+    <p class="hinweis"><span class="red-link">*</span><?php echo $lang['whois-p17'] ?></p>
+    <p class="hinweis"><span class="red-link">**</span><?php echo $lang['whois-p15'] ?></p>
+    <p class="hinweis"><span class="red-link">***</span><?php echo $lang['whois-p16'] ?></p>
 </div>

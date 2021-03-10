@@ -147,6 +147,7 @@
                         <li><?php echo $lang['specs-speicher2-li2'] ?></li>
                         <li><?php echo $lang['specs-speicher2-li3'] ?></li>
                         <li><?php echo $lang['specs-speicher2-li4'] ?></li>
+                        <li><?php echo $lang['specs-speicher2-li5'] ?></li>
                     </ul>
                 </div>
 
@@ -160,7 +161,6 @@
                         <li><?php echo $lang['specs-speicher3-li2'] ?></li>
                         <li><?php echo $lang['specs-speicher3-li3'] ?></li>
                         <li><?php echo $lang['specs-speicher3-li4'] ?></li>
-                        <li><?php echo $lang['specs-speicher3-li5'] ?></li>
                     </ul>
                 </div>
 
@@ -174,19 +174,6 @@
                         <li><?php echo $lang['specs-speicher4-li2'] ?></li>
                         <li><?php echo $lang['specs-speicher4-li3'] ?></li>
                         <li><?php echo $lang['specs-speicher4-li4'] ?></li>
-                    </ul>
-                </div>
-
-                <a href="javascript:toggle('festplatte-5')">
-                    <h5><?php echo $lang['specs-speicher5'] ?><span class="red-link">*</span></h5>
-
-                </a>
-                <div id="festplatte-5" style="display:none">
-                    <ul>
-                        <li><?php echo $lang['specs-speicher5-li1'] ?></li>
-                        <li><?php echo $lang['specs-speicher5-li2'] ?></li>
-                        <li><?php echo $lang['specs-speicher5-li3'] ?></li>
-                        <li><?php echo $lang['specs-speicher5-li4'] ?></li>
                     </ul>
                 </div>
             </ul>

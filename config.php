@@ -2,19 +2,35 @@
 /* Sprache mit Cookies */
 if (isset($_COOKIE['lang'])) {
     if (($_COOKIE['lang']) == null) {
-        setcookie('lang', 'de');
+        setcookie('lang', 'de', time()+60*60*24*6004);
     }
 } else {
-    setcookie('lang', 'de');
+    setcookie('lang', 'de', time()+60*60*24*6004);
+}
+
+if (isset($_COOKIE['mode'])) {
+    if (($_COOKIE['mode']) == null) {
+        setcookie('mode', '', time()+60*60*24*6004);
+    }
+} else {
+    setcookie('mode', '', time()+60*60*24*6004);
+}
+
+if (isset($_COOKIE['style'])) {
+    if (($_COOKIE['style']) == null) {
+        setcookie('style', 'dark', time()+60*60*24*6004);
+    }
+} else {
+    setcookie('style', 'dark', time()+60*60*24*6004);
 }
 
 /* Font mit Cookies */
 if (isset($_COOKIE['font'])) {
     if (($_COOKIE['font']) == null) {
-        setcookie('font', 'PT Sans');
+        setcookie('font', 'PT Sans', time()+60*60*24*6004);
     }
 } else {
-    setcookie('font', 'PT Sans');
+    setcookie('font', 'PT Sans', time()+60*60*24*6004);
 }
 
 if (isset($_GET['page'])) {

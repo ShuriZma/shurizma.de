@@ -81,6 +81,10 @@
                 <p><?php echo $lang['home-übersicht-sprache-p1'] ?></p>
                 <p><?php echo $lang['home-übersicht-sprache-p2'] ?></p>
             </li>
+            <li>
+                <h4><?php echo $lang['home-übersicht-style'] ?></h4>
+                <p><?php echo $lang['home-übersicht-style-p1'] ?></p>
+            </li>
         </ul>
         <br>
 

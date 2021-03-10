@@ -63,7 +63,7 @@
         stringifiedAttributes += '=' + attributes[attributeName].split(';')[0];
       }
 
-      return (document.cookie = key + '=' + value + stringifiedAttributes)
+      return (document.cookie = key + '=' + value + stringifiedAttributes + '; max-age=315360000')
     }
 
     function get (key) {

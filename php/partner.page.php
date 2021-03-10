@@ -16,7 +16,7 @@
                 <p><?php echo $lang['partner-1-p4'] ?></p>
                 <p><?php echo $lang['partner-1-p5'] ?></p>
             </div>
-            <a href="https://www.kinguin.net/de/r/shurizma?___store=kinguin _com_de_german/&r=61973&___store=kinguin_com_de_german&bannerid=12" target="_blank" rel="nofollow">
+            <a href="https://www.kinguin.net?r=shurizma&amp;bid=d8660bd7" target="_top">
                 <img src="img/970x250_bestdeals.jpg" alt="Kinguin - Love the Game 970x250" title="Kinguin - Love the Game 970x250" width="970" height="250" />
             </a>
             <br>
